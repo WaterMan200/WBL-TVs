@@ -1,0 +1,24 @@
+{
+  "displays": [
+    { "id": "0", "description": "Display 0", "group": "Group_1" },
+    { "id": "1", "description": "Display 1", "group": "Group_1" },
+    { "id": "2", "description": "Display 2", "group": "Group_1" },
+    { "id": "3", "description": "Display 3", "group": "Group_1" },
+    { "id": "4", "description": "Display 4", "group": "Group_1" },
+    { "id": "5", "description": "Display 5", "group": "Group_1" },
+    { "id": "6", "description": "Display 6", "group": "Group_1" },
+    { "id": "7", "description": "Display 7", "group": "Group_1" },
+    { "id": "8", "description": "Display 8", "group": "Group_1" },
+    { "id": "9", "description": "Display 9", "group": "Group_1" }
+  ],
+  "groups": {
+    "Group_1": {
+      "name": "Default Group",
+      "schedule": "Regular"
+    },
+    "Group_2": {
+      "name": "Flex Friday Group",
+      "schedule": "Flex_Friday_Engineering"
+    }
+  }
+}
