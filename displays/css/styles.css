@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+/* Global base font size */
+html {
+  font-size: clamp(16px, 2vw, 24px);
+}
+
+/* Panel-specific overrides */
+.panel.clock {
+  font-size: clamp(18px, 2.5vw, 28px);
+}
+
+.panel.quote {
+  font-size: clamp(20px, 3vw, 32px);
+}
+
+.panel.spotlight {
+  font-size: clamp(16px, 2vw, 24px);
+}
+#display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.countdown {
+  font-size: 8em;
+  text-align: center;
+}
+
+.iframe-container {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}
+/* Style for the overlay clock at the bottom of the screen */
+#overlay-clock {
+  font-size: 2.5em;                /* Larger font */
+  background: rgba(0, 0, 0, 0.6);   /* Semi-transparent dark background */
+  color: white;
+  border-radius: 15px;             /* Rounded corners */
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+/* Style for the default (large) clock */
+#default-clock {
+  font-size: 10em;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
