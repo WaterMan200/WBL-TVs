@@ -1,1 +1,210 @@
+/* tv.css */
+
+/* Overall layout: 2 rows - top-section (2/3), bottom-section (1/3) */
+body.tv-layout {
+  display: grid;
+  grid-template-rows: 66% 32%;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-bg);
+}
+
+/* Global base font size */
+html {
+  font-size: clamp(16px, 2vw, 24px);
+}
+
+h3, h4 {
+	margin-bottom: .5em;
+	margin-top: .5em;
+}
+.upcoming-events div {
+	font-size: clamp(18px, 2.5vw, 36px);
+}
+.panel.clock div {
+  font-size: clamp(32px, 2.5vw, 48px);
+}
+
+.panel.quote div {
+  font-size: clamp(16px, 3vw, 36px);
+}
+
+.panel.spotlight div{
+  font-size: clamp(16px, 2vw, 36px);
+}
+.tv-layout .panel.spotlight h4{
+  font-size: clamp(18px, 2vw, 24px);
+}
+.panel.trivia div {
+	font-size: clamp(14px, 2vw, 28px);
+}
+
+/* (Header styling is omitted since we've removed the header) */
+
+/* ========== TOP SECTION ========== */
+
+.tv-layout .top-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr; 
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+  align-items: stretch;
+}
+
+/* Apply common panel styling */
+.tv-layout .upcoming-events,
+.tv-layout .celebrations,
+.tv-layout .ia-in-pixels {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  color: var(--text-color);
+  padding: 1em;
+  position: relative;
+  overflow: hidden;
+}
+.tv-layout .ia-in-pixels {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* Align contents to the top */
+  align-items: left;
+}
+.tv-layout .ia-in-pixels.vertical {
+  /* Parent container – can define a width or let the grid do it */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* Possibly fix or constrain width: */
+  max-width: 200%; /* if desired */
+  /* Force height or use the parent's allocated grid height */
+  /* If the parent is tall, this might be enough. Just ensure it's stable. */
+}
+
+.tv-layout .ia-in-pixels-content.vertical {
+  /* Absolutely crucial to fix or limit the height so
+     the script sees a stable offsetHeight. */
+  width: 100%;
+  height: 100%; /* or a specific px-based height, e.g. 800px */
+  overflow: hidden;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+
+/* ========== BOTTOM SECTION (1/3) ========== */
+/* Prevent bottom section panels from stretching */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+  min-height: 0; /* Allow grid cells to shrink */
+}
+/* Panels in bottom-section */
+.panel {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.bottom-section .panel {
+  min-height: 0; /* Allow panels to shrink */
+  overflow: hidden; /* Hide overflowed content */
+}
+
+
+
+/* Ensure all h2 and h3 elements have no top margin */
+h2, h3 {
+  margin-top: 0;
+}
+
+/* Optional: if you want similar treatment for h4 elements */
+h4 {
+  margin-top: 0;
+} 
+
+/* Panel clock container now uses flex-start to align content at the top */
+.panel.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  /* Align contents to the top */
+  align-items: center;
+}
+
+/* Styles for the Binary Clock */
+.binary-clock {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Each group represents hours, minutes, or seconds */
+.binary-clock .group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  padding: 0.3em;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  border-radius: 4px;
+}
+
+/* Each digit: bits stack vertically */
+.binary-clock .digit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+/* Each bit as a circle */
+.binary-clock .bit {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333; /* Inactive state */
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+/* Active bit state now light gray */
+.binary-clock .bit.active {
+  background-color: #ccc;
+}
+
+/* Headers above clocks */
+.binary-header,
+.digital-header {
+  font-size: 1em;
+  margin: 0.3em 0;
+}
+
+/* Digital clock styling */
+.digital-clock {
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.binary-clock .group {
+  display: flex;
+  flex-direction: row; /* Arrange the two digits side by side */
+  gap: 0.3em;
+  padding: 0.3em;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  border-radius: 4px;
+}
+.trivia-timer {
+  margin-top: 2em;
+}
+
 
