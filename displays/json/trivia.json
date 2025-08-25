@@ -1,0 +1,1707 @@
+[
+  {
+    "question": "What comes next in the series: 2, 3, 5, 7, 11, ?",
+    "category": "math",
+    "answer": "13",
+    "choices": [
+      "17",
+      "14",
+      "15",
+      "13"
+    ]
+  },
+  {
+    "question": "What is the sum of the internal angles of a pentagon?",
+    "category": "math",
+    "answer": "540 degrees",
+    "choices": [
+      "360 degrees",
+      "720 degrees",
+      "450 degrees",
+      "540 degrees"
+    ]
+  },
+  {
+    "question": "What gas do plants primarily absorb from the atmosphere during photosynthesis?",
+    "category": "science",
+    "answer": "Carbon dioxide",
+    "choices": [
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium",
+      "Oxygen"
+    ]
+  },
+  {
+    "question": "Which particle has a negative electric charge?",
+    "category": "science",
+    "answer": "Electron",
+    "choices": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Photon"
+    ]
+  },
+  {
+    "question": "What is the smallest prime number greater than 100?",
+    "category": "math",
+    "answer": "101",
+    "choices": [
+      "101",
+      "103",
+      "107",
+      "109"
+    ]
+  },
+  {
+    "question": "A farmer has 17 sheep and all but 9 escape. How many sheep does the farmer have left?",
+    "category": "brainteasers",
+    "answer": "9",
+    "choices": [
+      "8",
+      "9",
+      "17",
+      "0"
+    ]
+  },
+  {
+    "question": "A bacteria doubles its count every minute. If it fills a jar completely in 1 hour, when was it half full?",
+    "category": "brainteasers",
+    "answer": "59 minutes",
+    "choices": [
+      "58 minutes",
+      "45 minutes",
+      "30 minutes",
+      "59 minutes"
+    ]
+  },
+  {
+    "question": "If you throw a red stone into the blue sea, what does it become?",
+    "category": "brainteasers",
+    "answer": "Wet",
+    "choices": [
+      "Blue",
+      "Purple",
+      "Wet",
+      "Invisible"
+    ]
+  },
+  {
+    "question": "What part of the cell contains genetic material?",
+    "category": "science",
+    "answer": "Nucleus",
+    "choices": [
+      "Nucleus",
+      "Cytoplasm",
+      "Cell wall",
+      "Ribosome"
+    ]
+  },
+  {
+    "question": "Which of these elements is a noble gas?",
+    "category": "science",
+    "answer": "Argon",
+    "choices": [
+      "Hydrogen",
+      "Nitrogen",
+      "Argon",
+      "Chlorine"
+    ]
+  },
+  {
+    "question": "Solve for x: 2x + 3 = 11.",
+    "category": "math",
+    "answer": "4",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "question": "What is the acceleration due to gravity on Earth?",
+    "category": "science",
+    "answer": "9.8 m/s\u00b2",
+    "choices": [
+      "10 m/s\u00b2",
+      "8.8 m/s\u00b2",
+      "9.8 m/s\u00b2",
+      "9 m/s\u00b2"
+    ]
+  },
+  {
+    "question": "If you have three apples and take away two, how many apples do you have?",
+    "category": "brainteasers",
+    "answer": "Two",
+    "choices": [
+      "Three",
+      "One",
+      "None",
+      "Two"
+    ]
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "category": "science",
+    "answer": "Mars",
+    "choices": [
+      "Mercury",
+      "Mars",
+      "Jupiter",
+      "Venus"
+    ]
+  },
+  {
+    "question": "You have a cube with sides of 4 inches. What's its volume?",
+    "category": "math",
+    "answer": "64 cubic inches",
+    "choices": [
+      "32 cubic inches",
+      "48 cubic inches",
+      "64 cubic inches",
+      "16 cubic inches"
+    ]
+  },
+  {
+    "question": "Which type of blood cell is primarily responsible for carrying oxygen in the body?",
+    "category": "medical",
+    "answer": "Red blood cells",
+    "choices": [
+      "Plasma cells",
+      "Red blood cells",
+      "White blood cells",
+      "Platelets"
+    ]
+  },
+  {
+    "question": "What is the normal resting heart rate range for adults?",
+    "category": "medical",
+    "answer": "60-100 beats per minute",
+    "choices": [
+      "70-110 beats per minute",
+      "80-120 beats per minute",
+      "50-90 beats per minute",
+      "60-100 beats per minute"
+    ]
+  },
+  {
+    "question": "Which organ is primarily responsible for detoxification and metabolism of drugs in the body?",
+    "category": "medical",
+    "answer": "Liver",
+    "choices": [
+      "Kidneys",
+      "Pancreas",
+      "Spleen",
+      "Liver"
+    ]
+  },
+  {
+    "question": "What is the largest bone in the human body?",
+    "category": "medical",
+    "answer": "Femur",
+    "choices": [
+      "Femur",
+      "Tibia",
+      "Fibula",
+      "Humerus"
+    ]
+  },
+  {
+    "question": "What is the main function of insulin in the human body?",
+    "category": "medical",
+    "answer": "Regulate blood sugar levels",
+    "choices": [
+      "Regulate blood sugar levels",
+      "Control heart rate",
+      "Regulate blood pressure",
+      "Boost immune system"
+    ]
+  },
+  {
+    "question": "Which part of the brain is responsible for balance and coordination?",
+    "category": "medical",
+    "answer": "Cerebellum",
+    "choices": [
+      "Cerebellum",
+      "Brainstem",
+      "Cerebrum",
+      "Hypothalamus"
+    ]
+  },
+  {
+    "question": "What does an EKG measure?",
+    "category": "medical",
+    "answer": "Electrical activity of the heart",
+    "choices": [
+      "Blood pressure",
+      "Oxygen levels in blood",
+      "Electrical activity of the heart",
+      "Heart size"
+    ]
+  },
+  {
+    "question": "What type of pathogen causes influenza?",
+    "category": "medical",
+    "answer": "Virus",
+    "choices": [
+      "Fungus",
+      "Parasite",
+      "Bacteria",
+      "Virus"
+    ]
+  },
+  {
+    "question": "What is the primary function of the alveoli in the lungs?",
+    "category": "medical",
+    "answer": "Gas exchange",
+    "choices": [
+      "Mucus production",
+      "Air filtration",
+      "Gas exchange",
+      "Blood filtration"
+    ]
+  },
+  {
+    "question": "Which vitamin is essential for blood clotting?",
+    "category": "medical",
+    "answer": "Vitamin K",
+    "choices": [
+      "Vitamin E",
+      "Vitamin D",
+      "Vitamin C",
+      "Vitamin K"
+    ]
+  },
+  {
+    "question": "You measure my life in hours, but I serve you by expiring. What am I?",
+    "category": "brainteasers",
+    "answer": "A candle",
+    "choices": [
+      "A clock",
+      "A candle",
+      "An hourglass",
+      "A battery"
+    ]
+  },
+  {
+    "question": "Which word contains 26 letters but only three syllables?",
+    "category": "brainteasers",
+    "answer": "Alphabet",
+    "choices": [
+      "Encyclopedia",
+      "Alphabet",
+      "Dictionary",
+      "Manuscript"
+    ]
+  },
+  {
+    "question": "I have keys but open no locks, I have space but no room. What am I?",
+    "category": "brainteasers",
+    "answer": "A keyboard",
+    "choices": [
+      "A calculator",
+      "A keyboard",
+      "A map",
+      "A piano"
+    ]
+  },
+  {
+    "question": "Forward I am heavy, backward I am not. What am I?",
+    "category": "brainteasers",
+    "answer": "Ton",
+    "choices": [
+      "Ton",
+      "Heavy",
+      "Stone",
+      "Weight"
+    ]
+  },
+  {
+    "question": "What gets wetter the more it dries?",
+    "category": "brainteasers",
+    "answer": "A towel",
+    "choices": [
+      "A towel",
+      "A sponge",
+      "Water",
+      "Rain"
+    ]
+  },
+  {
+    "question": "I speak without a mouth and hear without ears. What am I?",
+    "category": "brainteasers",
+    "answer": "An echo",
+    "choices": [
+      "A whisper",
+      "An echo",
+      "A shadow",
+      "The wind"
+    ]
+  },
+  {
+    "question": "What can travel around the world while staying in a corner?",
+    "category": "brainteasers",
+    "answer": "A stamp",
+    "choices": [
+      "A postcard",
+      "A globe",
+      "A shadow",
+      "A stamp"
+    ]
+  },
+  {
+    "question": "Which is heavier: a ton of feathers or a ton of bricks?",
+    "category": "brainteasers",
+    "answer": "They're equal",
+    "choices": [
+      "Neither",
+      "Feathers",
+      "They're equal",
+      "Bricks"
+    ]
+  },
+  {
+    "question": "The more you take, the more you leave behind. What are they?",
+    "category": "brainteasers",
+    "answer": "Footsteps",
+    "choices": [
+      "Memories",
+      "Time",
+      "Breaths",
+      "Footsteps"
+    ]
+  },
+  {
+    "question": "What can fill a room but takes up no space?",
+    "category": "brainteasers",
+    "answer": "Light",
+    "choices": [
+      "Light",
+      "Air",
+      "Heat",
+      "Sound"
+    ]
+  },
+  {
+    "question": "Which author wrote '1984'?",
+    "category": "literature",
+    "answer": "George Orwell",
+    "choices": [
+      "George Orwell",
+      "Margaret Atwood",
+      "Aldous Huxley",
+      "Ray Bradbury"
+    ]
+  },
+  {
+    "question": "What literary period is William Wordsworth most closely associated with?",
+    "category": "literature",
+    "answer": "Romanticism",
+    "choices": [
+      "Modernism",
+      "Romanticism",
+      "Victorian",
+      "Renaissance"
+    ]
+  },
+  {
+    "question": "Who is the author of 'The Great Gatsby'?",
+    "category": "literature",
+    "answer": "F. Scott Fitzgerald",
+    "choices": [
+      "F. Scott Fitzgerald",
+      "J.D. Salinger",
+      "Ernest Hemingway",
+      "John Steinbeck"
+    ]
+  },
+  {
+    "question": "Which author is known for the detective Sherlock Holmes?",
+    "category": "literature",
+    "answer": "Arthur Conan Doyle",
+    "choices": [
+      "Arthur Conan Doyle",
+      "Agatha Christie",
+      "Raymond Chandler",
+      "Edgar Allan Poe"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'Frankenstein'?",
+    "category": "literature",
+    "answer": "Mary Shelley",
+    "choices": [
+      "Robert Louis Stevenson",
+      "Mary Shelley",
+      "Bram Stoker",
+      "H.G. Wells"
+    ]
+  },
+  {
+    "question": "Who wrote the poem 'The Raven'?",
+    "category": "literature",
+    "answer": "Edgar Allan Poe",
+    "choices": [
+      "Robert Frost",
+      "Emily Dickinson",
+      "Edgar Allan Poe",
+      "Walt Whitman"
+    ]
+  },
+  {
+    "question": "What nationality was the playwright Henrik Ibsen?",
+    "category": "literature",
+    "answer": "Norwegian",
+    "choices": [
+      "Danish",
+      "Finnish",
+      "Swedish",
+      "Norwegian"
+    ]
+  },
+  {
+    "question": "Who authored the famous work 'Don Quixote'?",
+    "category": "literature",
+    "answer": "Miguel de Cervantes",
+    "choices": [
+      "Gabriel Garc\u00eda M\u00e1rquez",
+      "Miguel de Cervantes",
+      "Federico Garc\u00eda Lorca",
+      "Jorge Luis Borges"
+    ]
+  },
+  {
+    "question": "Who is the poet behind 'Leaves of Grass'?",
+    "category": "literature",
+    "answer": "Walt Whitman",
+    "choices": [
+      "Walt Whitman",
+      "Emily Dickinson",
+      "Henry David Thoreau",
+      "Ralph Waldo Emerson"
+    ]
+  },
+  {
+    "question": "Who is the author of 'Invisible Man', a landmark novel of American literature?",
+    "category": "literature",
+    "answer": "Ralph Ellison",
+    "choices": [
+      "Toni Morrison",
+      "Richard Wright",
+      "James Baldwin",
+      "Ralph Ellison"
+    ]
+  },
+  {
+    "question": "In what language was Dante's 'Divine Comedy' originally written?",
+    "category": "literature",
+    "answer": "Italian",
+    "choices": [
+      "Italian",
+      "Spanish",
+      "Greek",
+      "Latin"
+    ]
+  },
+  {
+    "question": "Who wrote 'Brave New World'?",
+    "category": "literature",
+    "answer": "Aldous Huxley",
+    "choices": [
+      "Aldous Huxley",
+      "Philip K. Dick",
+      "Isaac Asimov",
+      "George Orwell"
+    ]
+  },
+  {
+    "question": "Who authored the play 'Waiting for Godot'?",
+    "category": "literature",
+    "answer": "Samuel Beckett",
+    "choices": [
+      "Samuel Beckett",
+      "Harold Pinter",
+      "Tennessee Williams",
+      "Edward Albee"
+    ]
+  },
+  {
+    "question": "Which Greek epic poet is credited with composing the 'Iliad' and the 'Odyssey'?",
+    "category": "literature",
+    "answer": "Homer",
+    "choices": [
+      "Homer",
+      "Sophocles",
+      "Virgil",
+      "Aristotle"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'Things Fall Apart'?",
+    "category": "literature",
+    "answer": "Chinua Achebe",
+    "choices": [
+      "Chinua Achebe",
+      "Ama Ata Aidoo",
+      "Ng\u0169g\u0129 wa Thiong'o",
+      "Wole Soyinka"
+    ]
+  },
+  {
+    "question": "Who is the author of the fantasy series 'The Lord of the Rings'?",
+    "category": "literature",
+    "answer": "J.R.R. Tolkien",
+    "choices": [
+      "J.R.R. Tolkien",
+      "C.S. Lewis",
+      "Ursula K. Le Guin",
+      "George R.R. Martin"
+    ]
+  },
+  {
+    "question": "What famous Russian author wrote 'Crime and Punishment'?",
+    "category": "literature",
+    "answer": "Fyodor Dostoevsky",
+    "choices": [
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Alexander Pushkin",
+      "Leo Tolstoy"
+    ]
+  },
+  {
+    "question": "Who wrote 'Beloved'?",
+    "category": "literature",
+    "answer": "Toni Morrison",
+    "choices": [
+      "Toni Morrison",
+      "Maya Angelou",
+      "Alice Walker",
+      "Zora Neale Hurston"
+    ]
+  },
+  {
+    "question": "Who is the author of the dystopian novel 'Fahrenheit 451'?",
+    "category": "literature",
+    "answer": "Ray Bradbury",
+    "choices": [
+      "Aldous Huxley",
+      "Isaac Asimov",
+      "Ray Bradbury",
+      "Kurt Vonnegut"
+    ]
+  },
+  {
+    "question": "Who is the author of the novel 'Jane Eyre'?",
+    "category": "literature",
+    "answer": "Charlotte Bront\u00eb",
+    "choices": [
+      "Jane Austen",
+      "Charlotte Bront\u00eb",
+      "Emily Bront\u00eb",
+      "Virginia Woolf"
+    ]
+  },
+  {
+    "question": "Who is the author of 'The Catcher in the Rye'?",
+    "category": "literature",
+    "answer": "J.D. Salinger",
+    "choices": [
+      "John Steinbeck",
+      "J.D. Salinger",
+      "Harper Lee",
+      "Jack Kerouac"
+    ]
+  },
+  {
+    "question": "Who wrote the tragedy 'Hamlet'?",
+    "category": "literature",
+    "answer": "William Shakespeare",
+    "choices": [
+      "William Shakespeare",
+      "John Webster",
+      "Ben Jonson",
+      "Christopher Marlowe"
+    ]
+  },
+  {
+    "question": "Who wrote the poem 'Ozymandias'?",
+    "category": "literature",
+    "answer": "Percy Bysshe Shelley",
+    "choices": [
+      "Percy Bysshe Shelley",
+      "Lord Byron",
+      "John Keats",
+      "Samuel Taylor Coleridge"
+    ]
+  },
+  {
+    "question": "Who wrote the American classic 'To Kill a Mockingbird'?",
+    "category": "literature",
+    "answer": "Harper Lee",
+    "choices": [
+      "Harper Lee",
+      "William Faulkner",
+      "Flannery O'Connor",
+      "Tennessee Williams"
+    ]
+  },
+  {
+    "question": "What author created the fictional land of Narnia?",
+    "category": "literature",
+    "answer": "C.S. Lewis",
+    "choices": [
+      "L. Frank Baum",
+      "C.S. Lewis",
+      "Philip Pullman",
+      "J.R.R. Tolkien"
+    ]
+  },
+  {
+    "question": "Who wrote 'A Tale of Two Cities'?",
+    "category": "literature",
+    "answer": "Charles Dickens",
+    "choices": [
+      "Mark Twain",
+      "Leo Tolstoy",
+      "Victor Hugo",
+      "Charles Dickens"
+    ]
+  },
+  {
+    "question": "Which American author wrote 'Moby-Dick'?",
+    "category": "literature",
+    "answer": "Herman Melville",
+    "choices": [
+      "Edgar Allan Poe",
+      "Herman Melville",
+      "Nathaniel Hawthorne",
+      "Ralph Waldo Emerson"
+    ]
+  },
+  {
+    "question": "Who wrote 'The Old Man and the Sea'?",
+    "category": "literature",
+    "answer": "Ernest Hemingway",
+    "choices": [
+      "William Faulkner",
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway",
+      "John Steinbeck"
+    ]
+  },
+  {
+    "question": "Who is the author of 'Animal Farm'?",
+    "category": "literature",
+    "answer": "George Orwell",
+    "choices": [
+      "H.G. Wells",
+      "Ray Bradbury",
+      "Aldous Huxley",
+      "George Orwell"
+    ]
+  },
+  {
+    "question": "Who wrote the famous poem 'The Road Not Taken'?",
+    "category": "literature",
+    "answer": "Robert Frost",
+    "choices": [
+      "Robert Frost",
+      "W.B. Yeats",
+      "Sylvia Plath",
+      "T.S. Eliot"
+    ]
+  },
+  {
+    "question": "Who authored the novel 'The Picture of Dorian Gray'?",
+    "category": "literature",
+    "answer": "Oscar Wilde",
+    "choices": [
+      "Oscar Wilde",
+      "Henry James",
+      "Thomas Hardy",
+      "Joseph Conrad"
+    ]
+  },
+  {
+    "question": "Which author is associated with the 'Lost Generation'?",
+    "category": "literature",
+    "answer": "Ernest Hemingway",
+    "choices": [
+      "Henry Miller",
+      "Ernest Hemingway",
+      "Mark Twain",
+      "F. Scott Fitzgerald"
+    ]
+  },
+  {
+    "question": "Who wrote 'Les Mis\u00e9rables'?",
+    "category": "literature",
+    "answer": "Victor Hugo",
+    "choices": [
+      "Gustave Flaubert",
+      "Alexandre Dumas",
+      "Victor Hugo",
+      "\u00c9mile Zola"
+    ]
+  },
+  {
+    "question": "Who wrote the play 'Death of a Salesman'?",
+    "category": "literature",
+    "answer": "Arthur Miller",
+    "choices": [
+      "Edward Albee",
+      "Eugene O'Neill",
+      "Arthur Miller",
+      "Tennessee Williams"
+    ]
+  },
+  {
+    "question": "Who wrote 'One Hundred Years of Solitude'?",
+    "category": "literature",
+    "answer": "Gabriel Garc\u00eda M\u00e1rquez",
+    "choices": [
+      "Isabel Allende",
+      "Julio Cort\u00e1zar",
+      "Gabriel Garc\u00eda M\u00e1rquez",
+      "Mario Vargas Llosa"
+    ]
+  },
+  {
+    "question": "Which poet wrote 'Because I could not stop for Death'?",
+    "category": "literature",
+    "answer": "Emily Dickinson",
+    "choices": [
+      "Emily Dickinson",
+      "Elizabeth Barrett Browning",
+      "Christina Rossetti",
+      "Sylvia Plath"
+    ]
+  },
+  {
+    "question": "Who wrote 'The Grapes of Wrath'?",
+    "category": "literature",
+    "answer": "John Steinbeck",
+    "choices": [
+      "John Steinbeck",
+      "William Faulkner",
+      "Sinclair Lewis",
+      "Upton Sinclair"
+    ]
+  },
+  {
+    "question": "Who is the author of 'The Metamorphosis'?",
+    "category": "literature",
+    "answer": "Franz Kafka",
+    "choices": [
+      "Thomas Mann",
+      "Franz Kafka",
+      "Jean-Paul Sartre",
+      "Albert Camus"
+    ]
+  },
+  {
+    "question": "Who wrote the historical play 'Julius Caesar'?",
+    "category": "literature",
+    "answer": "William Shakespeare",
+    "choices": [
+      "Samuel Beckett",
+      "William Shakespeare",
+      "Oscar Wilde",
+      "George Bernard Shaw"
+    ]
+  },
+  {
+    "question": "Which novelist wrote 'War and Peace'?",
+    "category": "literature",
+    "answer": "Leo Tolstoy",
+    "choices": [
+      "Boris Pasternak",
+      "Leo Tolstoy",
+      "Anton Chekhov",
+      "Fyodor Dostoevsky"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'The Stranger' ('L'\u00c9tranger')?",
+    "category": "literature",
+    "answer": "Albert Camus",
+    "choices": [
+      "Andr\u00e9 Gide",
+      "Marcel Proust",
+      "Jean-Paul Sartre",
+      "Albert Camus"
+    ]
+  },
+  {
+    "question": "Who authored the novel 'Wuthering Heights'?",
+    "category": "literature",
+    "answer": "Emily Bront\u00eb",
+    "choices": [
+      "Emily Bront\u00eb",
+      "Anne Bront\u00eb",
+      "Jane Austen",
+      "Charlotte Bront\u00eb"
+    ]
+  },
+  {
+    "question": "Which poet is famous for the line 'Do not go gentle into that good night'?",
+    "category": "literature",
+    "answer": "Dylan Thomas",
+    "choices": [
+      "T.S. Eliot",
+      "W.B. Yeats",
+      "Dylan Thomas",
+      "Robert Frost"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'Madame Bovary'?",
+    "category": "literature",
+    "answer": "Gustave Flaubert",
+    "choices": [
+      "\u00c9mile Zola",
+      "Honor\u00e9 de Balzac",
+      "Marcel Proust",
+      "Gustave Flaubert"
+    ]
+  },
+  {
+    "question": "Who is the author of 'Slaughterhouse-Five'?",
+    "category": "literature",
+    "answer": "Kurt Vonnegut",
+    "choices": [
+      "Ray Bradbury",
+      "Joseph Heller",
+      "Kurt Vonnegut",
+      "Thomas Pynchon"
+    ]
+  },
+  {
+    "question": "Who wrote 'The Bell Jar'?",
+    "category": "literature",
+    "answer": "Sylvia Plath",
+    "choices": [
+      "Doris Lessing",
+      "Margaret Atwood",
+      "Sylvia Plath",
+      "Virginia Woolf"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'Anna Karenina'?",
+    "category": "literature",
+    "answer": "Leo Tolstoy",
+    "choices": [
+      "Leo Tolstoy",
+      "Ivan Turgenev",
+      "Fyodor Dostoevsky",
+      "Anton Chekhov"
+    ]
+  },
+  {
+    "question": "Which playwright wrote 'The Importance of Being Earnest'?",
+    "category": "literature",
+    "answer": "Oscar Wilde",
+    "choices": [
+      "George Bernard Shaw",
+      "Oscar Wilde",
+      "Samuel Beckett",
+      "Tom Stoppard"
+    ]
+  },
+  {
+    "question": "Who wrote the novel 'Heart of Darkness'?",
+    "category": "literature",
+    "answer": "Joseph Conrad",
+    "choices": [
+      "Joseph Conrad",
+      "Graham Greene",
+      "Henry James",
+      "Rudyard Kipling"
+    ]
+  },
+  {
+    "question": "Who authored 'The Sun Also Rises'?",
+    "category": "literature",
+    "answer": "Ernest Hemingway",
+    "choices": [
+      "John Steinbeck",
+      "Ernest Hemingway",
+      "William Faulkner",
+      "F. Scott Fitzgerald"
+    ]
+  },
+  {
+    "question": "Who is credited with inventing the telephone?",
+    "category": "inventions_discoveries",
+    "answer": "Alexander Graham Bell",
+    "choices": [
+      "Guglielmo Marconi",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "category": "inventions_discoveries",
+    "answer": "Alexander Fleming",
+    "choices": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Marie Curie",
+      "Jonas Salk"
+    ]
+  },
+  {
+    "question": "Which scientist developed the theory of relativity?",
+    "category": "inventions_discoveries",
+    "answer": "Albert Einstein",
+    "choices": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking",
+      "Isaac Newton"
+    ]
+  },
+  {
+    "question": "Who invented the first practical incandescent light bulb?",
+    "category": "inventions_discoveries",
+    "answer": "Thomas Edison",
+    "choices": [
+      "Benjamin Franklin",
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Michael Faraday"
+    ]
+  },
+  {
+    "question": "Who invented the first successful airplane?",
+    "category": "inventions_discoveries",
+    "answer": "The Wright Brothers",
+    "choices": [
+      "The Wright Brothers",
+      "Amelia Earhart",
+      "Howard Hughes",
+      "Charles Lindbergh"
+    ]
+  },
+  {
+    "question": "Who is known for discovering gravity after observing a falling apple?",
+    "category": "inventions_discoveries",
+    "answer": "Isaac Newton",
+    "choices": [
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Albert Einstein",
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "question": "Who invented the process of pasteurization?",
+    "category": "inventions_discoveries",
+    "answer": "Louis Pasteur",
+    "choices": [
+      "Robert Koch",
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Joseph Lister"
+    ]
+  },
+  {
+    "question": "Who discovered radioactivity?",
+    "category": "inventions_discoveries",
+    "answer": "Henri Becquerel",
+    "choices": [
+      "Pierre Curie",
+      "Marie Curie",
+      "Henri Becquerel",
+      "Wilhelm R\u00f6ntgen"
+    ]
+  },
+  {
+    "question": "Who developed the first successful polio vaccine?",
+    "category": "inventions_discoveries",
+    "answer": "Jonas Salk",
+    "choices": [
+      "Albert Sabin",
+      "Jonas Salk",
+      "Edward Jenner",
+      "Louis Pasteur"
+    ]
+  },
+  {
+    "question": "Who invented dynamite?",
+    "category": "inventions_discoveries",
+    "answer": "Alfred Nobel",
+    "choices": [
+      "Samuel Colt",
+      "Henry Ford",
+      "Alfred Nobel",
+      "Robert Oppenheimer"
+    ]
+  },
+  {
+    "question": "Who invented the World Wide Web?",
+    "category": "inventions_discoveries",
+    "answer": "Tim Berners-Lee",
+    "choices": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Mark Zuckerberg"
+    ]
+  },
+  {
+    "question": "Who invented the printing press?",
+    "category": "inventions_discoveries",
+    "answer": "Johannes Gutenberg",
+    "choices": [
+      "Isaac Newton",
+      "Leonardo da Vinci",
+      "Benjamin Franklin",
+      "Johannes Gutenberg"
+    ]
+  },
+  {
+    "question": "Who invented the phonograph?",
+    "category": "inventions_discoveries",
+    "answer": "Thomas Edison",
+    "choices": [
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Samuel Morse",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who invented the cotton gin?",
+    "category": "inventions_discoveries",
+    "answer": "Eli Whitney",
+    "choices": [
+      "Eli Whitney",
+      "John Deere",
+      "Robert Fulton",
+      "James Watt"
+    ]
+  },
+  {
+    "question": "Who discovered X-rays?",
+    "category": "inventions_discoveries",
+    "answer": "Wilhelm R\u00f6ntgen",
+    "choices": [
+      "Marie Curie",
+      "Henri Becquerel",
+      "Wilhelm R\u00f6ntgen",
+      "Gregor Mendel"
+    ]
+  },
+  {
+    "question": "Who created the first modern periodic table?",
+    "category": "inventions_discoveries",
+    "answer": "Dmitri Mendeleev",
+    "choices": [
+      "J.J. Thomson",
+      "Ernest Rutherford",
+      "Dmitri Mendeleev",
+      "John Dalton"
+    ]
+  },
+  {
+    "question": "Who invented the telescope?",
+    "category": "inventions_discoveries",
+    "answer": "Hans Lippershey",
+    "choices": [
+      "Isaac Newton",
+      "Hans Lippershey",
+      "Johannes Kepler",
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "question": "Who invented the first practical steam engine?",
+    "category": "inventions_discoveries",
+    "answer": "James Watt",
+    "choices": [
+      "George Stephenson",
+      "James Watt",
+      "Robert Fulton",
+      "Thomas Newcomen"
+    ]
+  },
+  {
+    "question": "Who invented the safety elevator?",
+    "category": "inventions_discoveries",
+    "answer": "Elisha Otis",
+    "choices": [
+      "Eli Whitney",
+      "Elisha Otis",
+      "Alexander Graham Bell",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who discovered the circulation of blood in the human body?",
+    "category": "inventions_discoveries",
+    "answer": "William Harvey",
+    "choices": [
+      "William Harvey",
+      "Louis Pasteur",
+      "Galen",
+      "Edward Jenner"
+    ]
+  },
+  {
+    "question": "Who is credited with inventing the telephone?",
+    "category": "inventions_discoveries",
+    "answer": "Alexander Graham Bell",
+    "choices": [
+      "Guglielmo Marconi",
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "category": "inventions_discoveries",
+    "answer": "Alexander Fleming",
+    "choices": [
+      "Alexander Fleming",
+      "Louis Pasteur",
+      "Marie Curie",
+      "Jonas Salk"
+    ]
+  },
+  {
+    "question": "Which scientist developed the theory of relativity?",
+    "category": "inventions_discoveries",
+    "answer": "Albert Einstein",
+    "choices": [
+      "Albert Einstein",
+      "Galileo Galilei",
+      "Stephen Hawking",
+      "Isaac Newton"
+    ]
+  },
+  {
+    "question": "Who invented the first practical incandescent light bulb?",
+    "category": "inventions_discoveries",
+    "answer": "Thomas Edison",
+    "choices": [
+      "Benjamin Franklin",
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Michael Faraday"
+    ]
+  },
+  {
+    "question": "Who invented the first successful airplane?",
+    "category": "inventions_discoveries",
+    "answer": "The Wright Brothers",
+    "choices": [
+      "The Wright Brothers",
+      "Amelia Earhart",
+      "Howard Hughes",
+      "Charles Lindbergh"
+    ]
+  },
+  {
+    "question": "Who is known for discovering gravity after observing a falling apple?",
+    "category": "inventions_discoveries",
+    "answer": "Isaac Newton",
+    "choices": [
+      "Isaac Newton",
+      "Johannes Kepler",
+      "Albert Einstein",
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "question": "Who invented the process of pasteurization?",
+    "category": "inventions_discoveries",
+    "answer": "Louis Pasteur",
+    "choices": [
+      "Robert Koch",
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Joseph Lister"
+    ]
+  },
+  {
+    "question": "Who discovered radioactivity?",
+    "category": "inventions_discoveries",
+    "answer": "Henri Becquerel",
+    "choices": [
+      "Pierre Curie",
+      "Marie Curie",
+      "Henri Becquerel",
+      "Wilhelm R\u00f6ntgen"
+    ]
+  },
+  {
+    "question": "Who developed the first successful polio vaccine?",
+    "category": "inventions_discoveries",
+    "answer": "Jonas Salk",
+    "choices": [
+      "Albert Sabin",
+      "Jonas Salk",
+      "Edward Jenner",
+      "Louis Pasteur"
+    ]
+  },
+  {
+    "question": "Who invented dynamite?",
+    "category": "inventions_discoveries",
+    "answer": "Alfred Nobel",
+    "choices": [
+      "Samuel Colt",
+      "Henry Ford",
+      "Alfred Nobel",
+      "Robert Oppenheimer"
+    ]
+  },
+  {
+    "question": "Who invented the World Wide Web?",
+    "category": "inventions_discoveries",
+    "answer": "Tim Berners-Lee",
+    "choices": [
+      "Bill Gates",
+      "Tim Berners-Lee",
+      "Steve Jobs",
+      "Mark Zuckerberg"
+    ]
+  },
+  {
+    "question": "Who invented the printing press?",
+    "category": "inventions_discoveries",
+    "answer": "Johannes Gutenberg",
+    "choices": [
+      "Isaac Newton",
+      "Leonardo da Vinci",
+      "Benjamin Franklin",
+      "Johannes Gutenberg"
+    ]
+  },
+  {
+    "question": "Who invented the phonograph?",
+    "category": "inventions_discoveries",
+    "answer": "Thomas Edison",
+    "choices": [
+      "Nikola Tesla",
+      "Alexander Graham Bell",
+      "Samuel Morse",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who invented the cotton gin?",
+    "category": "inventions_discoveries",
+    "answer": "Eli Whitney",
+    "choices": [
+      "Eli Whitney",
+      "John Deere",
+      "Robert Fulton",
+      "James Watt"
+    ]
+  },
+  {
+    "question": "Who discovered X-rays?",
+    "category": "inventions_discoveries",
+    "answer": "Wilhelm R\u00f6ntgen",
+    "choices": [
+      "Marie Curie",
+      "Henri Becquerel",
+      "Wilhelm R\u00f6ntgen",
+      "Gregor Mendel"
+    ]
+  },
+  {
+    "question": "Who created the first modern periodic table?",
+    "category": "inventions_discoveries",
+    "answer": "Dmitri Mendeleev",
+    "choices": [
+      "J.J. Thomson",
+      "Ernest Rutherford",
+      "Dmitri Mendeleev",
+      "John Dalton"
+    ]
+  },
+  {
+    "question": "Who invented the telescope?",
+    "category": "inventions_discoveries",
+    "answer": "Hans Lippershey",
+    "choices": [
+      "Isaac Newton",
+      "Hans Lippershey",
+      "Johannes Kepler",
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "question": "Who invented the first practical steam engine?",
+    "category": "inventions_discoveries",
+    "answer": "James Watt",
+    "choices": [
+      "George Stephenson",
+      "James Watt",
+      "Robert Fulton",
+      "Thomas Newcomen"
+    ]
+  },
+  {
+    "question": "Who invented the safety elevator?",
+    "category": "inventions_discoveries",
+    "answer": "Elisha Otis",
+    "choices": [
+      "Eli Whitney",
+      "Elisha Otis",
+      "Alexander Graham Bell",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "question": "Who discovered the circulation of blood in the human body?",
+    "category": "inventions_discoveries",
+    "answer": "William Harvey",
+    "choices": [
+      "William Harvey",
+      "Louis Pasteur",
+      "Galen",
+      "Edward Jenner"
+    ]
+  },
+  {
+    "question": "What invention significantly influenced public perception of the Vietnam War?",
+    "category": "inventions_discoveries",
+    "answer": "Television",
+    "choices": [
+      "Internet",
+      "Radio",
+      "Television",
+      "Newspapers"
+    ]
+  },
+  {
+    "question": "When was the first televised broadcast transmitted globally, marking a significant milestone in media history?",
+    "category": "inventions_discoveries",
+    "answer": "1967",
+    "choices": [
+      "1973",
+      "1955",
+      "1960",
+      "1967"
+    ]
+  },
+  {
+    "question": "What invention dramatically altered global communication by allowing messages to be sent instantly across long distances in the 19th century?",
+    "category": "inventions_discoveries",
+    "answer": "Telegraph",
+    "choices": [
+      "Telephone",
+      "Telegraph",
+      "Fax Machine",
+      "Radio"
+    ]
+  },
+  {
+    "question": "What discovery led directly to the Green Revolution and greatly increased global food production?",
+    "category": "inventions_discoveries",
+    "answer": "High-yield crop varieties",
+    "choices": [
+      "GMOs",
+      "Aquaponics",
+      "High-yield crop varieties",
+      "Organic farming"
+    ]
+  },
+  {
+    "question": "Which invention transformed industrial production by significantly increasing the speed of weaving textiles?",
+    "category": "inventions_discoveries",
+    "answer": "Power loom",
+    "choices": [
+      "Cotton gin",
+      "Power loom",
+      "Spinning wheel",
+      "Sewing machine"
+    ]
+  },
+  {
+    "question": "Which invention drastically improved navigation and exploration by accurately determining longitude at sea?",
+    "category": "inventions_discoveries",
+    "answer": "Marine chronometer",
+    "choices": [
+      "Sextant",
+      "Compass",
+      "Astrolabe",
+      "Marine chronometer"
+    ]
+  },
+  {
+    "question": "What invention, introduced in the early 20th century, greatly changed personal and commercial transportation?",
+    "category": "inventions_discoveries",
+    "answer": "Automobile",
+    "choices": [
+      "Bicycle",
+      "Electric scooter",
+      "Steam engine",
+      "Automobile"
+    ]
+  },
+  {
+    "question": "What was the major impact of Johannes Gutenberg's printing press?",
+    "category": "inventions_discoveries",
+    "answer": "Widespread literacy and knowledge dissemination",
+    "choices": [
+      "Industrial Revolution",
+      "Discovery of America",
+      "Medical advancements",
+      "Widespread literacy and knowledge dissemination"
+    ]
+  },
+  {
+    "question": "Which technological development significantly impacted global trade in the late 19th century by shortening travel time between oceans?",
+    "category": "inventions_discoveries",
+    "answer": "Suez Canal",
+    "choices": [
+      "Steamship",
+      "Suez Canal",
+      "Transcontinental Railroad",
+      "Panama Canal"
+    ]
+  },
+  {
+    "question": "What groundbreaking technology, invented in the mid-20th century, enabled the modern computer revolution?",
+    "category": "inventions_discoveries",
+    "answer": "Transistor",
+    "choices": [
+      "Transistor",
+      "Circuit board",
+      "Vacuum tube",
+      "Microchip"
+    ]
+  },
+  {
+    "question": "Which medical breakthrough drastically reduced deaths caused by infections during surgeries?",
+    "category": "inventions_discoveries",
+    "answer": "Antiseptic techniques",
+    "choices": [
+      "Blood transfusion",
+      "Vaccinations",
+      "MRI imaging",
+      "Antiseptic techniques"
+    ]
+  },
+  {
+    "question": "What invention in 1450 significantly influenced the spread of the Renaissance across Europe?",
+    "category": "inventions_discoveries",
+    "answer": "Printing press",
+    "choices": [
+      "Steam engine",
+      "Compass",
+      "Telescope",
+      "Printing press"
+    ]
+  },
+  {
+    "question": "Which development greatly impacted the efficiency of factories during the Industrial Revolution?",
+    "category": "inventions_discoveries",
+    "answer": "Assembly line",
+    "choices": [
+      "Windmills",
+      "Cotton gin",
+      "Assembly line",
+      "Water wheel"
+    ]
+  },
+  {
+    "question": "What discovery fundamentally changed our understanding of genetics in the 1950s?",
+    "category": "inventions_discoveries",
+    "answer": "DNA structure",
+    "choices": [
+      "RNA sequencing",
+      "Gene therapy",
+      "DNA structure",
+      "Genome mapping"
+    ]
+  },
+  {
+    "question": "What invention greatly increased the spread of ideas and culture in the 20th century by broadcasting images globally?",
+    "category": "inventions_discoveries",
+    "answer": "Satellite television",
+    "choices": [
+      "Cinema",
+      "Internet",
+      "Satellite television",
+      "Radio"
+    ]
+  },
+  {
+    "question": "What innovation was crucial for the mass production of steel, enabling modern architecture?",
+    "category": "inventions_discoveries",
+    "answer": "Bessemer process",
+    "choices": [
+      "Bessemer process",
+      "Electric arc furnace",
+      "Blast furnace",
+      "Open hearth furnace"
+    ]
+  },
+  {
+    "question": "Which invention revolutionized personal computing by allowing interaction through visual icons instead of text commands?",
+    "category": "inventions_discoveries",
+    "answer": "Graphical User Interface (GUI)",
+    "choices": [
+      "Graphical User Interface (GUI)",
+      "Voice recognition",
+      "Touch screen",
+      "Computer mouse"
+    ]
+  },
+  {
+    "question": "Which breakthrough enabled the accurate measurement of distances between Earth and celestial objects?",
+    "category": "inventions_discoveries",
+    "answer": "Radar",
+    "choices": [
+      "Telescope",
+      "Radar",
+      "Sonar",
+      "Microwave oven"
+    ]
+  },
+  {
+    "question": "What innovation made digital photography practical and widely accessible to the public?",
+    "category": "inventions_discoveries",
+    "answer": "Charge-coupled device (CCD)",
+    "choices": [
+      "Film roll",
+      "Polaroid camera",
+      "Digital sensor",
+      "Charge-coupled device (CCD)"
+    ]
+  },
+  {
+    "question": "What agricultural innovation in the 18th century significantly increased food production in Europe?",
+    "category": "inventions_discoveries",
+    "answer": "Crop rotation system",
+    "choices": [
+      "Crop rotation system",
+      "Plow",
+      "Chemical fertilizers",
+      "Irrigation systems"
+    ]
+  },
+  {
+    "question": "Which invention significantly impacted financial transactions by eliminating the need to carry cash?",
+    "category": "inventions_discoveries",
+    "answer": "Credit card",
+    "choices": [
+      "Checks",
+      "Banknotes",
+      "ATMs",
+      "Credit card"
+    ]
+  },
+  {
+    "question": "What invention had a profound effect on warfare by allowing observation and communication from great heights?",
+    "category": "inventions_discoveries",
+    "answer": "Airplane",
+    "choices": [
+      "Helicopter",
+      "Submarine",
+      "Airplane",
+      "Tank"
+    ]
+  },
+  {
+    "question": "Which technological advancement greatly accelerated global travel and commerce in the 19th century?",
+    "category": "inventions_discoveries",
+    "answer": "Steamship",
+    "choices": [
+      "Railway",
+      "Steamship",
+      "Airplane",
+      "Automobile"
+    ]
+  },
+  {
+    "question": "What invention transformed public health by improving sanitation and reducing disease spread in urban areas?",
+    "category": "inventions_discoveries",
+    "answer": "Modern sewage system",
+    "choices": [
+      "Antibiotics",
+      "Soap",
+      "Vaccinations",
+      "Modern sewage system"
+    ]
+  },
+  {
+    "question": "Which discovery dramatically expanded human understanding of the universe by confirming galaxies beyond the Milky Way?",
+    "category": "inventions_discoveries",
+    "answer": "Hubble\u2019s observations",
+    "choices": [
+      "Hubble\u2019s observations",
+      "Copernicus' heliocentric model",
+      "Einstein\u2019s relativity",
+      "Newton\u2019s gravity theory"
+    ]
+  },
+  {
+    "question": "Which discovery has significantly shaped modern physics by revealing the behavior of atoms and subatomic particles?",
+    "category": "inventions_discoveries",
+    "answer": "Quantum mechanics",
+    "choices": [
+      "Theory of relativity",
+      "Quantum mechanics",
+      "Classical mechanics",
+      "String theory"
+    ]
+  },
+  {
+    "question": "What invention dramatically changed transportation and urban development in the late 19th century?",
+    "category": "inventions_discoveries",
+    "answer": "Electric streetcar",
+    "choices": [
+      "Bicycle",
+      "Horse-drawn carriage",
+      "Cable car",
+      "Electric streetcar"
+    ]
+  },
+  {
+    "question": "Which innovation helped scientists understand the age and history of Earth and fossils?",
+    "category": "inventions_discoveries",
+    "answer": "Radiocarbon dating",
+    "choices": [
+      "Radiocarbon dating",
+      "Microscopy",
+      "Magnetic resonance imaging (MRI)",
+      "Geological survey"
+    ]
+  },
+  {
+    "question": "Which discovery drastically improved the understanding and treatment of diabetes?",
+    "category": "inventions_discoveries",
+    "answer": "Insulin",
+    "choices": [
+      "Aspirin",
+      "Insulin",
+      "Penicillin",
+      "Vaccination"
+    ]
+  },
+  {
+    "question": "What invention significantly changed the nature of work and domestic life by extending productivity beyond daylight hours?",
+    "category": "inventions_discoveries",
+    "answer": "Electric light bulb",
+    "choices": [
+      "Flashlight",
+      "Gas lamps",
+      "Candle",
+      "Electric light bulb"
+    ]
+  }
+]
