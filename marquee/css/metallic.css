@@ -1,0 +1,629 @@
+/* Metallic Industrial Theme Variables */
+:root {
+  --primary-bg: #2a2a2a;        /* Dark background */
+  --secondary-bg: #3b3b3b;      /* Slightly lighter for panels */
+  --accent-color: #b0b0b0;      /* Silver accent for text/buttons */
+  --text-color: #ddd;           /* Light text color for contrast */
+  --header-bg: #1f1f1f;         /* Even darker for headers */
+  --border-color: #7c7c7c;      /* Lighter metallic border tone */
+  --shadow-color: rgba(0, 0, 0, 0.6); /* Soft shadow for depth */
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 130%;
+  overflow: hidden;
+}
+
+/* Only apply this layout when NOT in TV mode */
+body:not(.tv-layout) {
+  display: grid;
+  grid-template-rows: 5% 20% 15% 15% 15% 15% 15%;
+  height: 100vh;
+}
+
+/* Header */
+header {
+  background: url('../img/InnovationAcademy_Main_NoPic.png') no-repeat center center;
+  background-size: 55%;
+  border-bottom: 4px solid var(--accent-color);
+  background-color: #000000;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hide header text */
+header h1 {
+  display: none;
+}
+
+/* Overall Page Grid:
+   Header: 5%, Top Row: 20%, Spotlights: 15%, IA in Pixels: 15%, Lower Grid: 45% */
+
+
+/* Top Row - Two Columns */
+.top-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Second column is twice as large */
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+}
+
+
+/********************************
+ * Optional "Rivet Corners" class
+ * add to any module container:
+ * e.g. <div class="upcoming-events rivet-corners">
+ ********************************/
+.rivet-corners {
+  position: relative;
+  background:
+    /* Four radial gradients for rivets in corners */
+    radial-gradient(circle 6px at 14px 14px, var(--border-color) 85%, transparent 90%),
+    radial-gradient(circle 6px at calc(100% - 14px) 14px, var(--border-color) 85%, transparent 90%),
+    radial-gradient(circle 6px at 14px calc(100% - 14px), var(--border-color) 85%, transparent 90%),
+    radial-gradient(circle 6px at calc(100% - 14px) calc(100% - 14px), var(--border-color) 85%, transparent 90%),
+    /* Keep your diagonal gradient behind the rivets */
+    linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/********************************
+ * Subtle gradient for modules
+ ********************************/
+
+/* We'll apply a diagonal gradient for that metallic "pop" */
+.gradient-bg {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+}
+
+
+/* ============== Upcoming Events ============== */
+.marquee-layout .top-row .upcoming-events: {
+  background-color: var(--secondary-bg);
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.marquee-layout .upcoming-events {
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 10px var(--shadow-color);
+  box-sizing: border-box;
+  border-radius: 10px; /* Rounded corners */
+  height: 100%;
+}
+
+.announcements {
+  position: relative;
+  background: #3b3b3b;
+  position: relative;
+  margin: 0;
+  padding: 1em;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 10px var(--shadow-color);
+  box-sizing: border-box;
+  border-radius: 10px; /* Rounded corners */
+  height: 100%;
+}
+
+.announcements::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #3b3b3b;
+  pointer-events: none;
+  z-index: 2;
+}
+
+
+/* Inner container: the actual "window" for your scrolling list */
+#events-content {
+  position: relative;
+  width: 100%;
+  height: 85%;
+  overflow: hidden; /* Hide scrolled-off parts */
+}
+
+.events-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation: scrollUp 40s linear infinite;
+}
+
+.events {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  color: var(--text-color);
+  padding: 1em;
+  position: relative;
+}
+
+.events-list {
+  white-space: normal; /* prevent horizontal overflow */
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.events-list li {
+  border-bottom: 1px solid #333;
+  padding: .5em;
+}
+
+.events-list .original-end {
+  border-bottom: 3px solid #999999;
+}
+.event-date {
+  float: right;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.5em 0;
+}
+
+.event-divider {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  margin: 0.5em 0;
+}
+
+
+/* ============== Combined Announcements & Embedded Content ============== */
+.combined-announcements-iframe {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 1em;
+}
+
+.combined-announcements-iframe .announcements,
+.combined-announcements-iframe .iframe-container {
+  padding: 1em;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 10px var(--shadow-color);
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border-radius: 10px;
+}
+
+.announcements {
+  height: 100%;
+}
+
+.announcements iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+/* ============== Spotlights Section ============== */
+.spotlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+  max-height: 100%;
+  overflow: hidden;
+}
+section.spotlights div.spotlight {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+  max-height: 100%;
+  overflow: hidden; 
+}
+
+/* Spotlight images */
+.spotlight-content img {
+  max-width: 150px;
+  height: auto;
+  border: 2px solid var(--border-color);
+  box-shadow: 4px 4px 10px var(--shadow-color);
+  border-radius: 3px;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  float: right;
+  background-color: var(--primary-bg);
+  padding: 4px;
+}
+
+
+.ia-in-pixels {
+  display: grid;
+  grid-template-columns: 3fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+  overflow: hidden;
+}
+
+.ia-in-pixels .panel {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ia-in-pixels .ia-in-pixels-content {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: opacity 1s;
+  opacity: 0; /* Start hidden until fadeIn */
+}
+
+.ia-in-pixels .ia-in-pixels-content img.marquee-image {
+  margin-right: 10px;
+  border: 3px solid var(--border-color); /* Increased thickness for a more noticeable border */
+  border-radius: 5px;                     /* Optional: rounded corners */
+  height: 100%;         /* Constrain image height to that of the content container */
+  width: auto;
+  object-fit: contain;
+}
+
+.ancillary-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+}
+.ancillary-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+}
+.ancillary-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+}
+.celebrations, .quotes, .trivia, .news, .weather, .binary-clock-panel {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+}
+.module-pic-container {
+	max-width:150px;
+}
+.news div.module-pic-container {
+	max-width: 300px;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.celebration-item {
+  display: flex;
+  flex-direction: row-reverse; /* Reverses the order so the image goes to the right */
+  align-items: center;
+  margin-bottom: 10px; /* Space between items */
+}
+
+.celebration-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+  box-shadow: 2px 2px 5px var(--shadow-color);
+  border-radius: 3px;
+  margin-left: 10px; /* Adds some spacing between the image and the text */
+}
+
+.celebration-title {
+  flex: 1;           /* Allow the title to take up remaining space */
+  text-align: left;  /* Ensure the text aligns to the left */
+}
+
+/* Clear the float for the title so it doesn't wrap around the image */
+.celebration-title {
+  clear: both;
+}
+
+.lower-grid .weather {
+  grid-area: weather;
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+}
+.lower-grid .binary-clock-panel {
+  grid-area: clock;
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Quote half panels */
+.lower-grid .quotes-trivia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: var(--secondary-bg);
+  overflow: hidden;
+}
+
+.lower-grid .quotes, .lower-grid .trivia {
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+  max-width: 100%;
+}
+/* Split the quote section into two equal halves */
+#quote-and-trivia {
+  display: flex;
+  width: 100%;
+}
+/* Ensure both halves in the quote-and-trivia section are fixed to 50% */
+#quote-and-trivia .quotes,
+#quote-and-trivia .trivia {
+  max-width: 50%;
+  flex:1;
+}
+/* Optional styling for trivia elements */
+.trivia-question {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.trivia-choices {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.trivia-choices li {
+  padding: 0.25em 0;
+}
+.trivia-timer {
+  margin-top: 0.5em;
+  font-style: italic;
+  text-align: right;
+}
+
+
+.lower-grid .news {
+  grid-area: news;
+  background: linear-gradient(145deg, #4a4a4a, var(--secondary-bg));
+  border: 2px solid var(--border-color);
+  padding: 1em;
+  box-shadow: 0 0 10px var(--shadow-color);
+  border-radius: 10px;
+}
+
+.rivet-corners {
+  position: relative; /* ensures background-position coordinates work properly */
+  /* 
+    Below, we stack two background layers:
+    1) Your existing metallic gradient
+    2) Four radial gradients for rivets in corners
+  */
+  background:
+    /* RIVETS LAYER */
+    radial-gradient(circle 6px at 14px 14px, #999 85%, transparent 90%), /* top-left rivet */
+    radial-gradient(circle 6px at calc(100% - 14px) 14px, #999 85%, transparent 90%), /* top-right rivet */
+    radial-gradient(circle 6px at 14px calc(100% - 14px), #999 85%, transparent 90%), /* bottom-left rivet */
+    radial-gradient(circle 6px at calc(100% - 14px) calc(100% - 14px), #999 85%, transparent 90%), /* bottom-right rivet */
+    /* METALLIC GRADIENT LAYER (placed last so it sits 'behind' the rivets) */
+    linear-gradient(145deg, #4a4a4a, var(--secondary-bg)) 
+    ;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-color: var(--secondary-bg); /* fallback if needed */
+  border-radius: 10px; /* keep corners rounded behind rivets */
+}
+/* Typography and Headings */
+h1, h2, h3 {
+  color: var(--accent-color);
+  text-shadow: 2px 2px 4px #000;
+}
+
+/* Links and Buttons */
+a, button {
+  background: linear-gradient(145deg, #505050, #3a3a3a);
+  border: 2px solid var(--border-color);
+  color: var(--accent-color);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px var(--shadow-color);
+}
+
+a:hover, button:hover {
+  background: linear-gradient(145deg, #3a3a3a, #505050);
+}
+/* Styles for the Binary Clock */
+.binary-clock {
+  display: flex;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+  justify-content: center;
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+/* Each group represents hours, minutes, or seconds */
+.binary-clock .group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  padding: 0.3em;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  border-radius: 4px;
+}
+
+/* Each digit: bits stack vertically */
+.binary-clock .digit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+/* Each bit as a circle */
+.binary-clock .bit {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #333; /* Inactive state */
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+/* Active bit state now light gray */
+.binary-clock .bit.active {
+  background-color: #ccc;
+}
+
+/* Headers above clocks */
+.binary-header,
+.digital-header {
+  font-size: 1em;
+  margin: 0.3em 0;
+}
+
+/* Digital clock styling */
+.digital-clock {
+  font-size: 1.3em;
+  font-family: monospace;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.binary-clock .group {
+  display: flex;
+  flex-direction: row; /* Arrange the two digits side by side */
+  gap: 0.3em;
+  padding: 0.3em;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  border-radius: 4px;
+}
+section div h3, section div h2 {
+	margin-top: 0;
+}
+
+/* Modal styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 10000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-height: 80%;
+      overflow-y: auto;
+      position: relative;
+    }
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #aaa;
+      cursor: pointer;
+    }
+    .modal-close:hover,
+    .modal-close:focus {
+      color: black;
+      text-decoration: none;
+    }
+    /* Style for the More buttons */
+    .more-button {
+      margin-top: 1em;
+      padding: 5px 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+	  display: none;
+    }
+    /* Highlight state when camera pointer hovers over a More button */
+    .more-button.highlight {
+      background-color: #28a745;
+    }
+	
+#pointer {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 99999; /* higher than the modal */
+}
+#video {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px; /* adjust as needed */
+  opacity: 0.2; /* high transparency */
+  z-index: 5000; /* below the pointer (which is 99999) but above other content if desired */
+}
+
+#video {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 200px; /* adjust as needed */
+  opacity: 0.2; /* high transparency */
+  z-index: 5000; /* below the pointer (which is 99999) but above other content if desired */
+}
