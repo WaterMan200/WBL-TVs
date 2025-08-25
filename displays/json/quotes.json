@@ -1,0 +1,928 @@
+{
+    "quotes": [
+        {
+            "quote": "Innovation distinguishes between a leader and a follower.",
+            "author": "Steve Jobs",
+            "tags": [
+                "innovation",
+                "leadership"
+            ]
+        },
+        {
+            "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+            "author": "Thomas Edison",
+            "tags": [
+                "grit",
+                "perseverance",
+                "failure"
+            ]
+        },
+        {
+            "quote": "The future belongs to those who learn more skills and combine them in creative ways.",
+            "author": "Robert Greene",
+            "tags": [
+                "growth mindset",
+                "skills",
+                "creativity"
+            ]
+        },
+        {
+            "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
+            "author": "Albert Einstein",
+            "tags": [
+                "grit",
+                "perseverance",
+                "problem solving"
+            ]
+        },
+        {
+            "quote": "The best way to predict the future is to create it.",
+            "author": "Peter Drucker",
+            "tags": [
+                "innovation",
+                "future",
+                "action"
+            ]
+        },
+        {
+            "quote": "Whether you think you can, or you think you can't – you're right.",
+            "author": "Henry Ford",
+            "tags": [
+                "growth mindset",
+                "self-belief",
+                "attitude"
+            ]
+        },
+        {
+            "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+            "author": "Franklin D. Roosevelt",
+            "tags": [
+                "growth mindset",
+                "potential",
+                "future"
+            ]
+        },
+        {
+            "quote": "Do not fear mistakes. There are none.",
+            "author": "Miles Davis",
+            "tags": [
+                "growth mindset",
+                "learning",
+                "mistakes"
+            ]
+        },
+        {
+            "quote": "The most powerful tool we have in our mental arsenal is the ability to shift our perspective.",
+            "author": "Adam Grant",
+            "tags": [
+                "growth mindset",
+                "perspective",
+                "mental strength"
+            ]
+        },
+        {
+            "quote": "Grit is sticking with your future—day in, day out, and not just for the week, not just for the month, but for years—and working really hard to make that future a reality.",
+            "author": "Angela Duckworth",
+            "tags": [
+                "grit",
+                "perseverance",
+                "long-term"
+            ]
+        },
+        {
+            "quote": "Innovation is seeing what everybody has seen and thinking what nobody has thought.",
+            "author": "Albert Szent-Gyorgyi",
+            "tags": [
+                "innovation",
+                "creativity",
+                "originality"
+            ]
+        },
+        {
+            "quote": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+            "author": "Albert Einstein",
+            "tags": [
+                "growth mindset",
+                "curiosity",
+                "questioning"
+            ]
+        },
+        {
+            "quote": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+            "author": "Winston Churchill",
+            "tags": [
+                "grit",
+                "perseverance",
+                "resilience"
+            ]
+        },
+        {
+            "quote": "If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you.",
+            "author": "Zig Ziglar",
+            "tags": [
+                "growth mindset",
+                "determination",
+                "learning"
+            ]
+        },
+        {
+            "quote": "The best revenge is massive success.",
+            "author": "Frank Sinatra",
+            "tags": [
+                "grit",
+                "motivation",
+                "success"
+            ]
+        },
+        {
+            "quote": "Every problem is a gift—without problems we would not grow.",
+            "author": "Tony Robbins",
+            "tags": [
+                "growth mindset",
+                "problem solving",
+                "growth"
+            ]
+        },
+        {
+            "quote": "Don't be afraid to give up the good to go for the great.",
+            "author": "John D. Rockefeller",
+            "tags": [
+                "innovation",
+                "ambition",
+                "risk-taking"
+            ]
+        },
+        {
+            "quote": "The mind is not a vessel to be filled, but a fire to be kindled.",
+            "author": "Plutarch",
+            "tags": [
+                "growth mindset",
+                "learning",
+                "inspiration"
+            ]
+        },
+        {
+            "quote": "If you want something new, you have to stop doing something old.",
+            "author": "Peter Drucker",
+            "tags": [
+                "innovation",
+                "change",
+                "progress"
+            ]
+        },
+        {
+            "quote": "Grit is living life like it's a marathon, not a sprint.",
+            "author": "Angela Duckworth",
+            "tags": [
+                "grit",
+                "perseverance",
+                "long-term"
+            ]
+        },
+        {
+            "quote": "The secret of getting ahead is getting started.",
+            "author": "Mark Twain",
+            "tags": [
+                "action",
+                "motivation",
+                "progress"
+            ]
+        },
+        {
+            "quote": "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living with the results of other people's thinking.",
+            "author": "Steve Jobs",
+            "tags": [
+                "individuality",
+                "authenticity",
+                "life"
+            ]
+        },
+        {
+            "quote": "The only source of knowledge is experience.",
+            "author": "Albert Einstein",
+            "tags": [
+                "learning",
+                "experience",
+                "knowledge"
+            ]
+        },
+        {
+            "quote": "The art of progress is to preserve order amid change and to preserve change amid order.",
+            "author": "Alfred North Whitehead",
+            "tags": [
+                "change",
+                "progress",
+                "balance"
+            ]
+        },
+        {
+            "quote": "To handle yourself, use your head; to handle others, use your heart.",
+            "author": "Eleanor Roosevelt",
+            "tags": [
+                "leadership",
+                "empathy",
+                "relationships"
+            ]
+        },
+        {
+            "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+            "author": "Chinese Proverb",
+            "tags": [
+                "action",
+                "opportunity",
+                "time"
+            ]
+        },
+        {
+            "quote": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+            "author": "Zig Ziglar",
+            "tags": [
+                "growth",
+                "achievement",
+                "character"
+            ]
+        },
+        {
+            "quote": "Success is walking from failure to failure with no loss of enthusiasm.",
+            "author": "Winston Churchill",
+            "tags": [
+                "resilience",
+                "perseverance",
+                "success"
+            ]
+        },
+        {
+            "quote": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
+            "author": "Vince Lombardi",
+            "tags": [
+                "determination",
+                "will",
+                "success"
+            ]
+        },
+        {
+            "quote": "Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.",
+            "author": "Earl Nightingale",
+            "tags": [
+                "perseverance",
+                "dreams",
+                "time"
+            ]
+        },
+        {
+            "quote": "Energy and persistence conquer all things.",
+            "author": "Benjamin Franklin",
+            "tags": [
+                "perseverance",
+                "persistence",
+                "success"
+            ]
+        },
+        {
+            "quote": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
+            "author": "Martin Luther King Jr.",
+            "tags": [
+                "character",
+                "challenge",
+                "grit"
+            ]
+        },
+        {
+            "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
+            "author": "Dale Carnegie",
+            "tags": [
+                "perseverance",
+                "hope",
+                "achievement"
+            ]
+        },
+        {
+            "quote": "Many ideas grow better when transplanted into another mind than the one where they sprang up.",
+            "author": "Oliver Wendell Holmes",
+            "tags": [
+                "teamwork",
+                "collaboration",
+                "ideas"
+            ]
+        },
+        {
+            "quote": "No individual can win a game by himself.",
+            "author": "Pele",
+            "tags": [
+                "teamwork",
+                "collaboration",
+                "sports"
+            ]
+        },
+        {
+            "quote": "The strength of the team is each individual member. The strength of each member is the team.",
+            "author": "Phil Jackson",
+            "tags": [
+                "teamwork",
+                "strength",
+                "unity"
+            ]
+        },
+        {
+            "quote": "Collaboration allows us to know more than we are capable of knowing by ourselves.",
+            "author": "Paul Solarz",
+            "tags": [
+                "teamwork",
+                "collaboration",
+                "knowledge"
+            ]
+        },
+        {
+            "quote": "The most exciting phrase to hear in science, the one that heralds new discoveries, is not 'Eureka!' but 'That's funny...'",
+            "author": "Isaac Asimov",
+            "tags": [
+                "science",
+                "discovery",
+                "curiosity"
+            ]
+        },
+        {
+            "quote": "Don't just learn, question. Don't just read, analyze. Don't just think, create.",
+            "author": "Unknown",
+            "tags": [
+                "learning",
+                "questioning",
+                "analysis",
+                "creativity"
+            ]
+        },
+        {
+            "quote": "The world is full of magical things, patiently waiting for our wits to grow sharper.",
+            "author": "Bertrand Russell",
+            "tags": [
+                "curiosity",
+                "wonder",
+                "learning"
+            ]
+        },
+        {
+            "quote": "Stay curious, keep exploring, and never stop asking 'why?'",
+            "author": "Unknown",
+            "tags": [
+                "curiosity",
+                "exploration",
+                "questioning"
+            ]
+        },
+        {
+            "quote": "The universe is under no obligation to make sense to you.",
+            "author": "Neil deGrasse Tyson",
+            "tags": [
+                "science",
+                "investigation",
+                "reality"
+            ]
+        },
+        {
+            "quote": "If you can't explain it simply, you don't understand it well enough.",
+            "author": "Albert Einstein",
+            "tags": [
+                "understanding",
+                "simplicity",
+                "clarity"
+            ]
+        },
+        {
+            "quote": "Every challenge is an opportunity to learn and grow.",
+            "author": "Unknown",
+            "tags": [
+                "challenges",
+                "growth",
+                "learning"
+            ]
+        },
+        {
+            "quote": "The art of science is not to avoid mistakes, but to learn from them.",
+            "author": "Unknown",
+            "tags": [
+                "science",
+                "mistakes",
+                "learning"
+            ]
+        },
+        {
+            "quote": "Doubt is uncomfortable, certainty is ridiculous.",
+            "author": "Voltaire",
+            "tags": [
+                "doubt",
+                "certainty",
+                "philosophy"
+            ]
+        },
+        {
+            "quote": "The best solutions come from the most diverse perspectives.",
+            "author": "Unknown",
+            "tags": [
+                "solutions",
+                "diversity",
+                "perspectives"
+            ]
+        },
+        {
+            "quote": "The future of technology depends on the creativity of the human mind.",
+            "author": "Unknown",
+            "tags": [
+                "technology",
+                "creativity",
+                "future"
+            ]
+        },
+        {
+            "quote": "Think outside the box, and then build a better box.",
+            "author": "Unknown",
+            "tags": [
+                "innovation",
+                "creativity",
+                "problem-solving"
+            ]
+        },
+        {
+            "quote": "Innovation is not about doing new things, but doing old things in new ways.",
+            "author": "Unknown",
+            "tags": [
+                "innovation",
+                "creativity",
+                "change"
+            ]
+        },
+        {
+            "quote": "Don't be afraid to experiment. That's how breakthroughs happen.",
+            "author": "Unknown",
+            "tags": [
+                "experimentation",
+                "breakthroughs",
+                "science"
+            ]
+        },
+        {
+            "quote": "The only way to discover the limits of the possible is to go beyond them into the impossible.",
+            "author": "Arthur C. Clarke",
+            "tags": [
+                "possibility",
+                "limits",
+                "exploration"
+            ]
+        },
+        {
+            "quote": "Find what you love, and let it drive you.",
+            "author": "Charles Bukowski",
+            "tags": [
+                "passion",
+                "drive",
+                "motivation"
+            ]
+        },
+        {
+            "quote": "Your passion is waiting for your courage to catch up.",
+            "author": "Isabelle Lafleche",
+            "tags": [
+                "passion",
+                "courage",
+                "motivation"
+            ]
+        },
+        {
+            "quote": "The future of STEM is in your hands.",
+            "author": "Unknown",
+            "tags": [
+                "STEM",
+                "future",
+                "potential"
+            ]
+        },
+        {
+            "quote": "Success in STEM isn't about being the smartest; it's about being the most persistent.",
+            "author": "Unknown",
+            "tags": [
+                "STEM",
+                "success",
+                "persistence"
+            ]
+        },
+        {
+            "quote": "You have the power to change the world.",
+            "author": "Unknown",
+            "tags": [
+                "power",
+                "change",
+                "potential"
+            ]
+        },
+        {
+            "quote": "Your potential is limitless.",
+            "author": "Unknown",
+            "tags": [
+                "potential",
+                "limitless",
+                "motivation"
+            ]
+        },
+        {
+            "quote": "Embrace the challenge, and celebrate the journey.",
+            "author": "Unknown",
+            "tags": [
+                "challenge",
+                "journey",
+                "growth"
+            ]
+        },
+        {
+            "quote": "Every day is a new opportunity to learn something amazing.",
+            "author": "Unknown",
+            "tags": [
+                "opportunity",
+                "learning",
+                "amazement"
+            ]
+        },
+        {
+            "quote": "Be the change you wish to see in the world.",
+            "author": "Mahatma Gandhi",
+            "tags": [
+                "change",
+                "world",
+                "influence"
+            ]
+        },
+        {
+            "quote": "The only constant in life is change. Embrace it.",
+            "author": "Heraclitus",
+            "tags": [
+                "adaptability",
+                "change",
+                "philosophy"
+            ]
+        },
+        {
+            "quote": "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young.",
+            "author": "Henry Ford",
+            "tags": [
+                "lifelong learning",
+                "growth",
+                "age"
+            ]
+        },
+        {
+            "quote": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change.",
+            "author": "Charles Darwin (Paraphrased)",
+            "tags": [
+                "adaptability",
+                "survival",
+                "evolution"
+            ]
+        },
+        {
+            "quote": "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence.",
+            "author": "Abigail Adams",
+            "tags": [
+                "learning",
+                "diligence",
+                "effort"
+            ]
+        },
+        {
+            "quote": "The beautiful thing about learning is nobody can take it away from you.",
+            "author": "B.B. King",
+            "tags": [
+                "learning",
+                "knowledge",
+                "value"
+            ]
+        },
+        {
+            "quote": "Your mental health is just as important as your physical health.",
+            "author": "Unknown",
+            "tags": [
+                "mental health",
+                "well-being",
+                "health"
+            ]
+        },
+        {
+            "quote": "Take care of your body. It's the only place you have to live.",
+            "author": "Jim Rohn",
+            "tags": [
+                "self-care",
+                "health",
+                "body"
+            ]
+        },
+        {
+            "quote": "Rest when you're weary. Refresh and renew yourself, your body, your mind, your spirit. Then get back to work.",
+            "author": "Ralph Marston",
+            "tags": [
+                "rest",
+                "renewal",
+                "balance"
+            ]
+        },
+        {
+            "quote": "Sometimes the most productive thing you can do is relax.",
+            "author": "Mark Black",
+            "tags": [
+                "relaxation",
+                "productivity",
+                "balance"
+            ]
+        },
+        {
+            "quote": "Self-care is not selfish. You cannot pour from an empty cup.",
+            "author": "Eleanor Brownn",
+            "tags": [
+                "self-care",
+                "compassion",
+                "well-being"
+            ]
+        },
+        {
+            "quote": "Effective communication is 20% what you know and 80% how you feel about what you know.",
+            "author": "Jim Rohn",
+            "tags": [
+                "communication",
+                "effectiveness",
+                "attitude"
+            ]
+        },
+        {
+            "quote": "The key to teamwork is communication.",
+            "author": "Unknown",
+            "tags": [
+                "teamwork",
+                "communication",
+                "collaboration"
+            ]
+        },
+        {
+            "quote": "Collaboration is the fuel that drives innovation.",
+            "author": "Unknown",
+            "tags": [
+                "collaboration",
+                "innovation",
+                "progress"
+            ]
+        },
+        {
+            "quote": "Great things in business are never done by one person. They're done by a team of people.",
+            "author": "Steve Jobs",
+            "tags": [
+                "teamwork",
+                "business",
+                "achievement"
+            ]
+        },
+        {
+            "quote": "Communication – the human connection – is the key to personal and career success.",
+            "author": "Paul J. Meyer",
+            "tags": [
+                "communication",
+                "success",
+                "relationships"
+            ]
+        },
+        {
+            "quote": "Failure is simply the opportunity to begin again, this time more intelligently.",
+            "author": "Henry Ford",
+            "tags": [
+                "failure",
+                "opportunity",
+                "learning"
+            ]
+        },
+        {
+            "quote": "I've missed more than 9,000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+            "author": "Michael Jordan",
+            "tags": [
+                "failure",
+                "success",
+                "perseverance"
+            ]
+        },
+        {
+            "quote": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+            "author": "Nelson Mandela",
+            "tags": [
+                "resilience",
+                "perseverance",
+                "strength"
+            ]
+        },
+        {
+            "quote": "Obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it.",
+            "author": "Michael Jordan",
+            "tags": [
+                "obstacles",
+                "determination",
+                "problem-solving"
+            ]
+        },
+        {
+            "quote": "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+            "author": "Thomas Edison",
+            "tags": [
+                "perseverance",
+                "success",
+                "effort"
+            ]
+        },
+        {
+            "quote": "The best way to predict the future is to design it.",
+            "author": "Buckminster Fuller",
+            "tags": [
+                "future",
+                "design",
+                "innovation"
+            ]
+        },
+        {
+            "quote": "Science and technology revolutionize our lives, but memory, tradition and myth frame our response.",
+            "author": "Arthur Schlesinger",
+            "tags": [
+                "science",
+                "technology",
+                "society"
+            ]
+        },
+        {
+            "quote": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.",
+            "author": "Margaret Mead",
+            "tags": [
+                "change",
+                "impact",
+                "community"
+            ]
+        },
+        {
+            "quote": "The important thing in science is not so much to obtain new facts as to discover new ways of thinking about them.",
+            "author": "William Bragg",
+            "tags": [
+                "science",
+                "thinking",
+                "discovery"
+            ]
+        },
+        {
+            "quote": "The future of humanity depends on our ability to solve complex problems through innovation and collaboration.",
+            "author": "Unknown",
+            "tags": [
+                "future",
+                "problems",
+                "innovation",
+                "collaboration"
+            ]
+        },
+        {
+            "quote": "Logic will get you from A to B. Imagination will take you everywhere.",
+            "author": "Albert Einstein",
+            "tags": [
+                "logic",
+                "imagination",
+                "thinking"
+            ]
+        },
+        {
+            "quote": "The art of reasoning becomes of first importance.",
+            "author": "Sherlock Holmes (Arthur Conan Doyle)",
+            "tags": [
+                "reasoning",
+                "logic",
+                "deduction"
+            ]
+        },
+        {
+            "quote": "To be conscious that you are ignorant is a great step to knowledge.",
+            "author": "Benjamin Disraeli",
+            "tags": [
+                "ignorance",
+                "knowledge",
+                "learning"
+            ]
+        },
+        {
+            "quote": "The beginning of wisdom is a definition of terms.",
+            "author": "Socrates",
+            "tags": [
+                "wisdom",
+                "definition",
+                "philosophy"
+            ]
+        },
+        {
+            "quote": "The power of accurate observation is commonly called cynicism by those who have not got it.",
+            "author": "George Bernard Shaw",
+            "tags": [
+                "observation",
+                "cynicism",
+                "perception"
+            ]
+        },
+        {
+            "quote": "Computational thinking is a fundamental skill for everyone, not just for computer scientists.",
+            "author": "Jeannette Wing",
+            "tags": [
+                "computational thinking",
+                "skills",
+                "education"
+            ]
+        },
+        {
+            "quote": "Coding is today's language of creativity. All our children deserve to become creators rather than just consumers of computer technology.",
+            "author": "Maria Klawe",
+            "tags": [
+                "coding",
+                "creativity",
+                "technology"
+            ]
+        },
+        {
+            "quote": "The best way to learn to code is to write code.",
+            "author": "Unknown",
+            "tags": [
+                "coding",
+                "learning",
+                "practice"
+            ]
+        },
+        {
+            "quote": "Computational thinking is about problem-solving, designing systems, and understanding human behavior.",
+            "author": "Jeannette Wing",
+            "tags": [
+                "computational thinking",
+                "problem-solving",
+                "systems",
+                "behavior"
+            ]
+        },
+        {
+            "quote": "Coding is not just about writing lines of code; it's about thinking logically and creatively.",
+            "author": "Unknown",
+            "tags": [
+                "coding",
+                "logic",
+                "creativity",
+                "thinking"
+            ]
+        },
+        {
+            "quote": "Every problem has a solution. If it doesn't, it's not a problem.",
+            "author": "Unknown",
+            "tags": [
+                "problem-solving",
+                "solutions",
+                "attitude"
+            ]
+        },
+        {
+            "quote": "The true sign of intelligence is not knowledge but imagination.",
+            "author": "Albert Einstein",
+            "tags": [
+                "intelligence",
+                "imagination",
+                "knowledge"
+            ]
+        },
+        {
+            "quote": "Problems are not stop signs, they are guidelines.",
+            "author": "Robert Schuller",
+            "tags": [
+                "problems",
+                "guidelines",
+                "perspective"
+            ]
+        },
+        {
+            "quote": "Creative thinking inspires ideas. Ideas inspire change.",
+            "author": "Barbara Januszkiewicz",
+            "tags": [
+                "creative thinking",
+                "ideas",
+                "change"
+            ]
+        },
+        {
+            "quote": "The best way to solve a problem is often the simplest.",
+            "author": "Unknown",
+            "tags": [
+                "problem-solving",
+                "simplicity",
+                "efficiency"
+            ]
+        }
+    ],
+    "dailyQuote": {
+        "date": "2025-03-26",
+        "quote": {
+            "quote": "Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.",
+            "author": "Dale Carnegie",
+            "tags": [
+                "perseverance",
+                "hope",
+                "achievement"
+            ]
+        }
+    }
+}
