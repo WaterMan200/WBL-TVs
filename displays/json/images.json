@@ -1,0 +1,23 @@
+{
+    "categories": [
+        "Branding",
+        "Student Work",
+        "Awards",
+        "Art",
+        "Test"
+    ],
+    "images": [
+        {
+            "url": "https:\/\/fcsia.com\/displays\/img\/FCS_InnovationAcademy_Main_TeaserText.png",
+            "title": "IA Logo",
+            "category": "Branding",
+            "description": ""
+        },
+        {
+            "url": "uploads\/images\/phoenix_cleaning.JPG",
+            "category": "Test",
+            "title": "Phoenix_Student",
+            "description": ""
+        }
+    ]
+}
