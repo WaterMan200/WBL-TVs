@@ -1,0 +1,469 @@
+{
+  "default_weekly_schedule": {
+    "Monday": "Regular",
+    "Tuesday": "Regular",
+    "Wednesday": "Regular",
+    "Thursday": "Regular",
+    "Friday": "Flex Friday"
+  },
+  "special_days": {
+    "Club Week": [
+      "2025-03-24",
+      "2025-03-25",
+      "2025-03-26",
+      "2025-03-27",
+      "2025-04-21",
+      "2025-04-22",
+      "2025-04-23",
+      "2025-04-24"
+    ],
+    "Flex Friday": [
+      "2025-03-14",
+      "2025-04-04",
+      "2025-03-21",
+      "2025-04-18",
+      "2025-03-28",
+      "2025-04-25"
+    ],
+    "Showcase/Field Day": [
+      "2025-05-01"
+    ],
+    "Last Day for Seniors": [
+      "2025-05-09"
+    ],
+    "Regular Friday": [
+      "2025-03-07",
+      "2025-05-09",
+      "2025-05-16"
+    ],
+    "Test": [
+      "2025-03-17"
+    ],
+    "EOC - Dates": [
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-02"
+    ]
+  },
+  "schedules": {
+    "Regular": [
+      {
+        "name": "Very Early Announcements",
+        "start": "04:00",
+        "end": "08:00",
+        "description": "",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "Video Morning Time",
+        "start": "08:00",
+        "end": "08:30",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "Announcements",
+        "start": "08:30",
+        "end": "08:50",
+        "description": "",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "1st Period",
+        "start": "08:55",
+        "end": "09:45",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "2nd Period",
+        "start": "09:49",
+        "end": "10:39",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "3rd Period",
+        "start": "10:43",
+        "end": "11:33",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "calming display"
+      },
+      {
+        "name": "4th Period",
+        "start": "11:37",
+        "end": "11:56",
+        "description": "",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "4th Video Time",
+        "start": "11:57",
+        "end": "12:37",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "calming display"
+      },
+      {
+        "name": "5th Period",
+        "start": "12:37",
+        "end": "13:03",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "5th Video Time",
+        "start": "13:03",
+        "end": "13:37",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "calming display"
+      },
+      {
+        "name": "6th Period",
+        "start": "13:37",
+        "end": "14:27",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "calming display"
+      },
+      {
+        "name": "7th Period",
+        "start": "14:31",
+        "end": "15:21",
+        "displayDuring": "dashboard",
+        "displayBetween": "google_slides",
+        "videoCategory": "",
+        "betweenVideoCategory": "",
+        "slideshow": ""
+      },
+      {
+        "name": "8th Period",
+        "start": "15:25",
+        "end": "16:15",
+        "displayDuring": "dashboard",
+        "displayBetween": "dashboard",
+        "videoCategory": "",
+        "slideshow": "",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "Afternoon Videos",
+        "start": "16:15",
+        "end": "20:38",
+        "description": "",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": "IT Promotion and Courses"
+      },
+      {
+        "name": "Evening Announcements",
+        "start": "20:39",
+        "end": "23:45",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown",
+        "videoCategory": "calming display",
+        "slideshow": ""
+      }
+    ],
+    "Regular Friday": [
+      {
+        "name": "1st Period",
+        "start": "08:55",
+        "end": "09:45"
+      },
+      {
+        "name": "2nd Period",
+        "start": "09:49",
+        "end": "10:39"
+      },
+      {
+        "name": "3rd Period",
+        "start": "10:43",
+        "end": "11:33"
+      },
+      {
+        "name": "4th Period",
+        "start": "11:37",
+        "end": "12:33"
+      },
+      {
+        "name": "5th Period",
+        "start": "12:37",
+        "end": "01:33"
+      },
+      {
+        "name": "6th Period",
+        "start": "01:37",
+        "end": "02:27"
+      },
+      {
+        "name": "7th Period",
+        "start": "02:31",
+        "end": "03:21"
+      },
+      {
+        "name": "8th Period",
+        "start": "03:25",
+        "end": "04:15"
+      }
+    ],
+    "Club Week": [
+      {
+        "name": "Early Morning",
+        "start": "03:00",
+        "end": "08:50",
+        "description": "",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": "",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "1st Period",
+        "start": "08:55",
+        "end": "09:40",
+        "displayDuring": "dashboard",
+        "videoCategory": "",
+        "slideshow": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "2nd Period",
+        "start": "09:44",
+        "end": "10:30",
+        "displayDuring": "dashboard",
+        "slideshow": "",
+        "videoCategory": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "3rd Period",
+        "start": "10:34",
+        "end": "11:21",
+        "displayDuring": "dashboard",
+        "slideshow": "",
+        "videoCategory": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "4th Period",
+        "start": "11:23",
+        "end": "12:09",
+        "displayDuring": "dashboard",
+        "videoCategory": "",
+        "slideshow": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "Flex/Club",
+        "start": "12:13",
+        "end": "12:58",
+        "displayDuring": "dashboard",
+        "videoCategory": "",
+        "slideshow": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "5th Period",
+        "start": "13:02",
+        "end": "13:48",
+        "displayDuring": "dashboard",
+        "slideshow": "",
+        "videoCategory": "",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "6th Period",
+        "start": "13:52",
+        "end": "14:37",
+        "displayDuring": "youtube",
+        "slideshow": "",
+        "videoCategory": "calming display",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "7th Period",
+        "start": "14:41",
+        "end": "15:26",
+        "displayDuring": "youtube",
+        "slideshow": "",
+        "videoCategory": "calming display",
+        "displayBetween": "countdown",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      },
+      {
+        "name": "8th Period",
+        "start": "15:30",
+        "end": "16:15",
+        "displayDuring": "youtube",
+        "slideshow": ""
+      },
+      {
+        "name": "After School Announcements",
+        "start": "16:15",
+        "end": "17:45",
+        "description": "",
+        "displayDuring": "dashboard",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": "",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      }
+    ],
+    "Flex Friday": [
+      {
+        "name": "Morning Announcements",
+        "start": "07:00",
+        "end": "08:55",
+        "description": "",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "Tutoring Time 1",
+        "start": "08:55",
+        "end": "09:35",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "Tutoring Time 2",
+        "start": "09:40",
+        "end": "10:15",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "Morning Workshop",
+        "start": "10:20",
+        "end": "12:15",
+        "displayDuring": "youtube",
+        "displayBetween": "google_slides"
+      },
+      {
+        "name": "Lunch",
+        "start": "12:20",
+        "end": "13:15",
+        "displayDuring": "google_slides",
+        "displayBetween": "youtube"
+      },
+      {
+        "name": "Wellness",
+        "start": "13:20",
+        "end": "14:00",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "Afternoon Session",
+        "start": "14:05",
+        "end": "16:00",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "End of Day Slide Show",
+        "start": "16:00",
+        "end": "16:45",
+        "description": "",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown"
+      }
+    ],
+    "Showcase": [
+      {
+        "name": "Morning Events",
+        "start": "08:30",
+        "end": "11:00"
+      },
+      {
+        "name": "Lunch",
+        "start": "11:05",
+        "end": "11:35"
+      },
+      {
+        "name": "Afternoon Activities",
+        "start": "11:40",
+        "end": "02:30"
+      }
+    ],
+    "Test": [
+      {
+        "name": "Test 1",
+        "start": "21:45",
+        "end": "21:46",
+        "description": "",
+        "displayDuring": "youtube",
+        "displayBetween": "countdown"
+      },
+      {
+        "name": "Test 2",
+        "start": "21:47",
+        "end": "21:48",
+        "description": "",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown"
+      }
+    ],
+    "EOC - Dates": [
+      {
+        "name": "All Day",
+        "start": "08:00",
+        "end": "17:45",
+        "description": "",
+        "displayDuring": "google_slides",
+        "displayBetween": "countdown",
+        "videoCategory": "",
+        "slideshow": "Daily Annoucements",
+        "betweenVideoCategory": "",
+        "betweenSlideshow": ""
+      }
+    ]
+  },
+  "defaultDisplay": "clock"
+}
