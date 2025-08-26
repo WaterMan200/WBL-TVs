@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hand Test</title>
+    <!-- Load TensorFlow.js and the Handpose model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+    <style>
+      /* Style for the pointer dot */
+      #pointer {
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+        pointer-events: none;
+        z-index: 10000; /* Make sure it's on top of all elements */
+      }
+      /* Style for the More button */
+      #more-button {
+        position: absolute;
+        top: 400px;
+        left: 300px;
+        padding: 10px 20px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+      }
+      /* Modal styles */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The video element (hidden) for hand detection -->
+    <video id="video" width="640" height="480" autoplay playsinline style="display: none;"></video>
+    <!-- The pointer dot that moves around -->
+    <div id="pointer"></div>
+    <!-- The More button that the pointer can hover over -->
+    <button id="more-button">More</button>
+
+    <!-- Modal for additional information -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="modal-close">&times;</span>
+        <p>Here is more information.</p>
+      </div>
+    </div>
+
+    <!-- Link to your custom JS -->
+    <script src="js/mouse-control-cam.js"></script>
+  </body>
+</html>
