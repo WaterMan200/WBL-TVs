@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Innovation Academy - TV Layout</title>
+  <!-- Metallic theme -->
+  <link rel="stylesheet" id="metal" href="css/metallic.css" />
+  <!-- TV layout overrides -->
+  <link rel="stylesheet" id="tv_styles" href="css/tv.css" />
+</head>
+<body class="tv-layout">
 
+<section class="top-section">
+  <!-- Column 1: Upcoming Events -->
+  <div class="upcoming-events">
+    <h3>Upcoming Events</h3>
+    <div id="events-content">Loading events...</div>
+  </div>
+  
+  <!-- Column 2: Celebrations -->
+  <div class="ia-in-pixels vertical">
+	<h3>IA in Pix</h3>
+    <div class="ia-in-pixels-content vertical">Loading pix...</div>
+  </div>
+  <!-- Column 3: Announcements (wider) -->
+  <div class="announcements">
+    <iframe 
+      src="https://docs.google.com/presentation/d/e/2PACX-1vQZkVODSdXp8QJR0dImaT9UCWHNYR57xq7ApTNefchPTzor8BnfxF9UKilc1-uR71egQ12GBpYKcGU8/embed?start=true&loop=true&delayms=10000"
+      title="Google Slides Presentation"
+      frameborder="0">
+    </iframe>
+  </div>
+</section>
+
+
+
+<!-- BOTTOM SECTION (1/3 of the viewport): 4 equal panels -->
+<section class="bottom-section">
+
+
+  <div class="panel quote" id="quote-of-the-day">
+    <h3>Time to Think</h3>
+    <blockquote>"Loading quote..."</blockquote>
+    <p>&mdash; Unknown</p>
+  </div>
+    <!-- Clock panel -->
+
+ <div class="panel clock" id="clock">
+  <h3>Clock</h3>
+  <h4>Binary Clock</h4>
+  <div class="binary-clock">
+    <!-- Group for Hours -->
+    <div class="group" data-group="hours">
+      <div class="digit" data-index="0">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="1">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+    <!-- Group for Minutes -->
+    <div class="group" data-group="minutes">
+      <div class="digit" data-index="2">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="3">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+    <!-- Group for Seconds -->
+    <div class="group" data-group="seconds">
+      <div class="digit" data-index="4">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="5">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+  </div>
+  <!-- New header for digital clock -->
+  <h4 class="digital-header">Decimal Conversion</h4>
+  <div class="digital-clock"></div>
+</div>
+  <div class="panel trivia">
+  <h3>Brain Starters</h3>
+	  <div id="trivia-container">
+		<p>Loading trivia...</p>
+	  </div>
+  </div>
+  <div class="panel spotlight" id="student-spotlight">
+    <h3>Student Spotlight</h3>
+    <div class="spotlight-content">Loading Student Spotlight...</div>
+  </div>
+  <div class="panel spotlight" id="teacher-spotlight">
+    <h3>Teacher Spotlight</h3>
+    <div class="spotlight-content">Loading Teacher Spotlight...</div>
+  </div>
+</section>
+
+  <!-- Other JS scripts (if any) -->
+  <script src="js/wordpress-post.js"></script>
+  <script src="js/instagram-posts.js"></script>
+  <script id="event_script" src="js/events.js"></script>
+  <script src="js/ia-in-pixels.js"></script>
+  <script id="trivia" src="js/trivia.js"></script>
+  <script src="js/spotlight.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/binary-clock.js"></script>
+
+  <!-- Inline JavaScript to adjust section heights based on full viewport -->
+  <script>
+	document.addEventListener("DOMContentLoaded", function () {
+	  function adjustSectionHeights() {
+		// Use the entire viewport height since there's no header
+		const viewportHeight = document.documentElement.clientHeight;
+		
+		// Calculate heights: top is 2/3 and bottom is 1/3 of viewport height minus extra space for gap
+		const topHeight = viewportHeight * (2 / 3);
+		const bottomHeight = viewportHeight * (1 / 3) - 40; // subtract 40px for extra spacing
+		
+		const topSection = document.querySelector(".top-section");
+		const bottomSection = document.querySelector(".bottom-section");
+		
+		topSection.style.height = `${topHeight}px`;
+		bottomSection.style.height = `${bottomHeight}px`;
+		
+		console.log("Viewport Height:", viewportHeight);
+		console.log("Top Section Height:", topHeight);
+		console.log("Bottom Section Height:", bottomHeight);
+	  }
+	  
+	  adjustSectionHeights();
+	  window.addEventListener("resize", adjustSectionHeights);
+	});
+
+  </script>
+
+
+</body>
+</html>
