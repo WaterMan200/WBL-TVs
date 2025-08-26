@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Innovation Academy</title>
+  <link rel="stylesheet" href="css/metallic.css" />
+
+
+  
+</head>
+<body class="marquee-layout">
+  <!-- Header (Row 1: 5%) -->
+  <header>
+    <h1>Innovation Academy</h1>
+  </header>
+
+  <!-- Top Row: Two Columns -->
+  <!-- Left Cell: Upcoming Events -->
+  <!-- Right Cell: Combined Announcements (top) & Embedded Content (bottom) -->
+  <section class="top-row">
+	<div class="upcoming-events " id="upcoming-events">
+	  <h3>Upcoming Events</h3>
+	  <!-- Here is the container that will be replaced by the JS -->
+	  <div id="events-content">
+		<p>Loading events...</p>
+	  </div>
+	</div>
+	<div class="panel announcements-panel rivet-corners">
+	  <div class="announcements">
+		<iframe 
+		  src="https://docs.google.com/presentation/d/e/2PACX-1vQZkVODSdXp8QJR0dImaT9UCWHNYR57xq7ApTNefchPTzor8BnfxF9UKilc1-uR71egQ12GBpYKcGU8/embed?start=true&loop=true&delayms=10000"
+		  title="Google Slides Presentation" 
+		  frameborder="0" 
+		  width="100%" 
+		  height="100%" 
+		  allowfullscreen>
+		</iframe> 
+	  </div>
+	</div>
+  </section>
+
+  <!-- Spotlights (Row 3: 15%) -->
+  <section class="spotlights">
+	<div class="spotlight" id="student-spotlight">
+	  <h3>Student Spotlight</h3>
+	  <div class="spotlight-content">Loading Student Spotlight...</div>
+	</div>
+
+	<div class="spotlight" id="teacher-spotlight">
+	  <h3>Teacher Spotlight</h3>
+	  <div class="spotlight-content">Loading Teacher Spotlight...</div>
+	</div>
+
+	<div class="spotlight" id="partner-spotlight">
+	  <h3>Community Spotlight</h3>
+	  <div class="spotlight-content">Loading Partner Spotlight...</div>
+	</div>
+  </section>
+
+	<section class="ia-in-pixels">
+	  <div class="panel">
+		<h3>IA in Pix</h3>
+		<div class="ia-in-pixels-content">
+		  <!-- Images will eventually go here -->
+		  Loading IA in Pixels...
+		</div>
+	  </div>
+	</section>
+  <!-- Lower Grid (Row 5: 45%) -->
+  <!-- Lower Grid Section -->
+<section class="ancillary-1">
+  <!-- Top Row: 3 Panels -->
+  <div class="celebrations" id="celebrations">
+    <h3>Celebrations</h3>
+    <div class="celebrations-content">Loading Celebrations...</div>
+  </div>
+  <div class="weather" id="weather">
+    <h3>Weather</h3>
+    <p>Loading weather data...</p>
+  </div>
+  <div class="binary-clock-panel" id="clock">
+  <h3>Clock</h3>
+    <h4 class="binary-header">Binary Clock</h4>
+
+  <div class="binary-clock">
+    <!-- Group for Hours -->
+    <div class="group" data-group="hours">
+      <div class="digit" data-index="0">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="1">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+    <!-- Group for Minutes -->
+    <div class="group" data-group="minutes">
+      <div class="digit" data-index="2">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="3">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+    <!-- Group for Seconds -->
+    <div class="group" data-group="seconds">
+      <div class="digit" data-index="4">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+      <div class="digit" data-index="5">
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+        <span class="bit"></span>
+      </div>
+    </div>
+  </div>
+  <h4 class="digital-header">Decimal Conversion</h4>
+  <div class="digital-clock"></div>
+</div>
+</section>
+  
+<!-- Middle Row: Quote and Trivia -->
+<section class="ancillary-2" id="quote-and-trivia">
+  <div class="quotes" id="quote-of-the-day">
+    <h3>Time to Think</h3>
+    <blockquote>"Loading quote..."</blockquote>
+    <p>&mdash; Unknown</p>
+  </div>
+
+  <div class="trivia">
+  <h3>Brain Starters</h3>
+	  <div id="trivia-container">
+		<p>Loading trivia...</p>
+	  </div>
+  </div>
+</section>
+ <section class="ancillary-3" id="news">
+  <!-- Bottom Row: Full-Width News / Story -->
+  <div class="news">
+    <h3>In the News</h3>
+	<div class="news-container" id="wordpress-post">
+		<p>Loading Latest Article...</p>
+	</div>
+  </div>
+</section>
+    <video id="video" width="640" height="480" autoplay playsinline style="display: none;"></video>
+    <!-- The pointer dot that moves around -->
+    <div id="pointer"></div>
+<script src="js/events.js"></script>
+<script src="js/wordpress-post.js"></script>
+<script src="js/spotlight.js"></script>
+<script src="js/ia-in-pixels.js"></script>
+<script src="js/celebrations.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/trivia.js"></script>
+<script src="js/binary-clock.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+
+<script src="js/mouse-control-cam.js"></script>
+
+<!-- Modal for displaying full WordPress post content -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" id="modal-close">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+</body>
+</html>
