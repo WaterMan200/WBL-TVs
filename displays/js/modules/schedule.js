@@ -1,5 +1,5 @@
 // js/modules/schedule.js
-import { getNow } from './utils.js';
+import { getNow } from './util.js';
 
 export function computeAction(calendarData, todaySchedule) {
   const now = getNow();
@@ -72,7 +72,8 @@ export function computeAction(calendarData, todaySchedule) {
   }
   
   return { type: calendarData.defaultDisplay || 'clock' };
-}
+
+  }
 
 export function actionsEqual(a, b) {
   if (a.type !== b.type) return false;

@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function loadSpotlight(spotlight) {
+    
     const container = document.querySelector(`#${spotlight.id} .spotlight-content`);
     if (!container) {
       console.error(`Element with id "${spotlight.id}" not found.`);
@@ -34,11 +35,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const postsToFetch = spotlight.pickFromLatest || 1;
-
+    
     getTagIdBySlug(spotlight.tag)
-      .then(tagId => fetch(`${siteUrl}/wp-json/wp/v2/posts?per_page=${postsToFetch}&tags=${tagId}&_embed`))
+      .then(tagId =>{fetch(`${siteUrl}/wp-json/wp/v2/posts?per_page=${postsToFetch}&tags=${tagId}&_embed`)})
       .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
       .then(posts => {
+        
         if (!posts.length) throw new Error(`No posts found for tag "${spotlight.tag}"`);
 
         const post = posts[Math.floor(Math.random() * posts.length)];
@@ -58,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p>${truncateWords(stripHTML(post.excerpt.rendered), 100)}</p>
           <button class="more-button" data-full-content='${post.content.rendered.replace(/'/g, "&#39;")}'>More</button>
         `;
+        
       })
       .catch(err => {
         console.error(`Error fetching ${spotlight.tag}:`, err);

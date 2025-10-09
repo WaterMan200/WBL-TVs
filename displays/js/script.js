@@ -1,6 +1,7 @@
 // script.js - Main file for the display application
 
-import { getQueryParam, updateLayout } from './modules/utils.js';
+
+import { getQueryParam, updateLayout } from './modules/util.js';
 import { loadDisplays, getGroupSchedule } from './modules/displayGroups.js';
 import {
   loadCalendar,
@@ -21,6 +22,7 @@ import {
   updateOverlayPeriodBar
 } from './modules/display.js';
 import { computeAction, actionsEqual } from './modules/schedule.js';
+
 
 let calendarData = null;
 let todaySchedule = null;
@@ -130,3 +132,6 @@ function updateDisplay() {
 
 window.onload = initApp;
 window.addEventListener('resize', updateLayout);
+
+
+updateDisplay();

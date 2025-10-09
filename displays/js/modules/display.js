@@ -1,6 +1,6 @@
 // js/modules/display.js
 
-import { formatTime } from './utils.js';
+import { formatTime } from './util.js';
 
 // Global variables for display mode and intervals.
 let displayMode = "clock"; // "clock" or "countdown"
