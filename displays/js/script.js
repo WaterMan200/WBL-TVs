@@ -109,7 +109,7 @@ function updateDisplay() {
       break;
     }
     case 'tv': {
-      const tvURL = "../marquee/tv.html";
+      const tvURL = "../displays/marquee/tv.html";
       showIframe(tvURL, 'tv');
       break;
     }
@@ -120,7 +120,7 @@ function updateDisplay() {
       showImage();
       break;
     case 'dashboard': {
-      const dashboardURL = "../marquee/tv.html";
+      const dashboardURL = "../displays/marquee/tv.html";
       showIframe(dashboardURL, 'dashboard');
       break;
     }
