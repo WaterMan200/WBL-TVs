@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const spotlights = [
     { id: "student-spotlight", tag: "student_spotlight", imagePosition: "right" },
     { id: "teacher-spotlight", tag: "teacher_spotlight", imagePosition: "right" },
-    { id: "partner-spotlight", tag: "partner_spotlight", imagePosition: "right" }
+    // { id: "partner-spotlight", tag: "partner_spotlight", imagePosition: "right" }
   ];
 
   function getTagIdBySlug(slug) {
