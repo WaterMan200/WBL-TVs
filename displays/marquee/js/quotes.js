@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  fetch("../displays/json/quotes.json")
+  fetch("../json/quotes.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Error fetching quotes.json: " + response.statusText);

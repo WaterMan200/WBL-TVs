@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let lastCategory = null; // To track the category of the previously displayed question
 
   // Fetch the trivia JSON file.
-  fetch("../displays/json/trivia.json")
+  fetch("../json/trivia.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Network response was not ok: " + response.statusText);

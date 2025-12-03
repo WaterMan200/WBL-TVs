@@ -38,7 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
     
     getTagIdBySlug(spotlight.tag)
       .then(tagId =>{fetch(`${siteUrl}/wp-json/wp/v2/posts?per_page=${postsToFetch}&tags=${tagId}&_embed`)})
-      .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+      .then(res => {
+        res.ok ? res.json() : Promise.reject(res.statusText)
+      })
       .then(posts => {
         
         if (!posts.length) throw new Error(`No posts found for tag "${spotlight.tag}"`);
